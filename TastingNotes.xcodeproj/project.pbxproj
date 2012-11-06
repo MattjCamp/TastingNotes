@@ -66,7 +66,7 @@
 		91B3D42B16418962003EC643 /* ImageEditorFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D42516418962003EC643 /* ImageEditorFullScreen.m */; };
 		91B3D42C16418962003EC643 /* ListEditorFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D42716418962003EC643 /* ListEditorFullScreen.m */; };
 		91B3D42D16418962003EC643 /* ListEditorListItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D42916418962003EC643 /* ListEditorListItemCell.m */; };
-		91B3D430164189A6003EC643 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D42F164189A6003EC643 /* AppDelegate.m */; };
+		91B3D430164189A6003EC643 /* TNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D42F164189A6003EC643 /* TNAppDelegate.m */; };
 		91B3D43616418A3B003EC643 /* ListControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D43316418A3B003EC643 /* ListControl.m */; };
 		91B3D43716418A3B003EC643 /* ListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D43516418A3B003EC643 /* ListItem.m */; };
 		91B3D44A16418C45003EC643 /* 001_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43816418C45003EC643 /* 001_15.png */; };
@@ -199,8 +199,8 @@
 		91B3D42716418962003EC643 /* ListEditorFullScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListEditorFullScreen.m; sourceTree = "<group>"; };
 		91B3D42816418962003EC643 /* ListEditorListItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListEditorListItemCell.h; sourceTree = "<group>"; };
 		91B3D42916418962003EC643 /* ListEditorListItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListEditorListItemCell.m; sourceTree = "<group>"; };
-		91B3D42E164189A6003EC643 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		91B3D42F164189A6003EC643 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91B3D42E164189A6003EC643 /* TNAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNAppDelegate.h; sourceTree = "<group>"; };
+		91B3D42F164189A6003EC643 /* TNAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNAppDelegate.m; sourceTree = "<group>"; };
 		91B3D43216418A3B003EC643 /* ListControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListControl.h; sourceTree = "<group>"; };
 		91B3D43316418A3B003EC643 /* ListControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListControl.m; sourceTree = "<group>"; };
 		91B3D43416418A3B003EC643 /* ListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListItem.h; sourceTree = "<group>"; };
@@ -284,8 +284,8 @@
 		91B3D2D71641834F003EC643 /* TastingNotes */ = {
 			isa = PBXGroup;
 			children = (
-				91B3D42E164189A6003EC643 /* AppDelegate.h */,
-				91B3D42F164189A6003EC643 /* AppDelegate.m */,
+				91B3D42E164189A6003EC643 /* TNAppDelegate.h */,
+				91B3D42F164189A6003EC643 /* TNAppDelegate.m */,
 				91B3D39516418710003EC643 /* Model */,
 				91B3D3BC16418785003EC643 /* View */,
 				91B3D2D81641834F003EC643 /* Supporting Files */,
@@ -657,7 +657,7 @@
 				91B3D42B16418962003EC643 /* ImageEditorFullScreen.m in Sources */,
 				91B3D42C16418962003EC643 /* ListEditorFullScreen.m in Sources */,
 				91B3D42D16418962003EC643 /* ListEditorListItemCell.m in Sources */,
-				91B3D430164189A6003EC643 /* AppDelegate.m in Sources */,
+				91B3D430164189A6003EC643 /* TNAppDelegate.m in Sources */,
 				91B3D43616418A3B003EC643 /* ListControl.m in Sources */,
 				91B3D43716418A3B003EC643 /* ListItem.m in Sources */,
 			);

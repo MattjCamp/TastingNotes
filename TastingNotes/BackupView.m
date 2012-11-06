@@ -7,7 +7,7 @@
 //
 
 #import "BackupView.h"
-#import "AppDelegate.h"
+#import "TNAppDelegate.h"
 #import <QuartzCore/QuartzCore.h>
 
 @implementation BackupView
@@ -67,7 +67,7 @@
 }
 
 - (IBAction)restoreAction:(id)sender {
-    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    TNAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     [appDelegate lockEditingWhileDoingDatabaseRestore];
     self.progressView.hidden = NO;
     self.statusTextView.text = @"Your database restore is in progress - while you may view your current notebooks you may not edit them until the restore is complete";

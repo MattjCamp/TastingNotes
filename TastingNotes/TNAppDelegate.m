@@ -6,12 +6,12 @@
 //  Copyright App Shop, LLC 2008. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "TNAppDelegate.h"
 #import "AppContent.h"
 #import "DropboxBackup.h"
 #import "Analytics.h"
 
-@implementation AppDelegate
+@implementation TNAppDelegate
 
 -(void)applicationDidFinishLaunching:(UIApplication *)application{
     [[Analytics sharedAnalytics] startTracking];
