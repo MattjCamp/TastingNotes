@@ -78,8 +78,6 @@
 		913A36611649A40C00A7C284 /* 57_wine_journal.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43A16418C45003EC643 /* 57_wine_journal.png */; };
 		913A36621649A40C00A7C284 /* 114_wine_journal.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43B16418C45003EC643 /* 114_wine_journal.png */; };
 		913A36631649A40C00A7C284 /* aweberform_iphone.html in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43C16418C45003EC643 /* aweberform_iphone.html */; };
-		913A36641649A40C00A7C284 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43D16418C45003EC643 /* Default-568h@2x.png */; };
-		913A36651649A40C00A7C284 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43E16418C45003EC643 /* Default@2x.png */; };
 		913A36661649A40C00A7C284 /* dropbox_icon_35.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43F16418C45003EC643 /* dropbox_icon_35.png */; };
 		913A36671649A40C00A7C284 /* icon-book.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44016418C45003EC643 /* icon-book.png */; };
 		913A36681649A40C00A7C284 /* icon-book@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44116418C45003EC643 /* icon-book@2x.png */; };
@@ -89,6 +87,10 @@
 		913A366C1649A40C00A7C284 /* paddb.sql in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44716418C45003EC643 /* paddb.sql */; };
 		913A366D1649A40C00A7C284 /* tastingnotesnotestyledefault.css in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44816418C45003EC643 /* tastingnotesnotestyledefault.css */; };
 		913A366E1649A40C00A7C284 /* winebottle4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44916418C45003EC643 /* winebottle4.jpeg */; };
+		913A367E1649AFF100A7C284 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A367C1649AFF000A7C284 /* DropboxSDK.framework */; };
+		913A367F1649AFF100A7C284 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A367D1649AFF000A7C284 /* libGoogleAnalytics.a */; };
+		913A36801649B02B00A7C284 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A367C1649AFF000A7C284 /* DropboxSDK.framework */; };
+		913A36811649B02B00A7C284 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A367D1649AFF000A7C284 /* libGoogleAnalytics.a */; };
 		91B3D2D21641834F003EC643 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D2D11641834F003EC643 /* UIKit.framework */; };
 		91B3D2D41641834F003EC643 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D2D31641834F003EC643 /* Foundation.framework */; };
 		91B3D2D61641834F003EC643 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D2D51641834F003EC643 /* CoreGraphics.framework */; };
@@ -98,9 +100,7 @@
 		91B3D38616418435003EC643 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D38516418435003EC643 /* Security.framework */; };
 		91B3D38816418461003EC643 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D38716418461003EC643 /* libsqlite3.dylib */; };
 		91B3D38C164184DF003EC643 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D38B164184DF003EC643 /* QuartzCore.framework */; };
-		91B3D38E1641853F003EC643 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D38D1641853F003EC643 /* DropboxSDK.framework */; };
 		91B3D39016418560003EC643 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D38F16418560003EC643 /* MessageUI.framework */; };
-		91B3D391164185E4003EC643 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D38A1641849E003EC643 /* libGoogleAnalytics.a */; };
 		91B3D3991641872A003EC643 /* NoteToHTMLPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3981641872A003EC643 /* NoteToHTMLPage.m */; };
 		91B3D39F16418741003EC643 /* SQLiteColumnMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D39C16418741003EC643 /* SQLiteColumnMetaData.m */; };
 		91B3D3A016418741003EC643 /* SQLiteDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D39E16418741003EC643 /* SQLiteDB.m */; };
@@ -156,7 +156,6 @@
 		91B3D44C16418C45003EC643 /* 57_wine_journal.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43A16418C45003EC643 /* 57_wine_journal.png */; };
 		91B3D44D16418C45003EC643 /* 114_wine_journal.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43B16418C45003EC643 /* 114_wine_journal.png */; };
 		91B3D44E16418C45003EC643 /* aweberform_iphone.html in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43C16418C45003EC643 /* aweberform_iphone.html */; };
-		91B3D44F16418C45003EC643 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43D16418C45003EC643 /* Default-568h@2x.png */; };
 		91B3D45016418C45003EC643 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43E16418C45003EC643 /* Default@2x.png */; };
 		91B3D45116418C45003EC643 /* dropbox_icon_35.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43F16418C45003EC643 /* dropbox_icon_35.png */; };
 		91B3D45216418C45003EC643 /* icon-book.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44016418C45003EC643 /* icon-book.png */; };
@@ -182,6 +181,9 @@
 		913A361616499EEA00A7C284 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		913A361816499EEA00A7C284 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		913A361A16499EEA00A7C284 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		913A367C1649AFF000A7C284 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DropboxSDK.framework; path = ../Frameworks/DropboxSDK.framework; sourceTree = "<group>"; };
+		913A367D1649AFF000A7C284 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = ../Frameworks/libGoogleAnalytics.a; sourceTree = "<group>"; };
+		913A36821649B04F00A7C284 /* GANTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GANTracker.h; sourceTree = "<group>"; };
 		91B3D2CD1641834F003EC643 /* TastingNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TastingNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B3D2D11641834F003EC643 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		91B3D2D31641834F003EC643 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -193,10 +195,7 @@
 		91B3D3831641842E003EC643 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		91B3D38516418435003EC643 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		91B3D38716418461003EC643 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		91B3D3891641849E003EC643 /* GANTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GANTracker.h; sourceTree = "<group>"; };
-		91B3D38A1641849E003EC643 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
 		91B3D38B164184DF003EC643 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		91B3D38D1641853F003EC643 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
 		91B3D38F16418560003EC643 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		91B3D3971641872A003EC643 /* NoteToHTMLPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteToHTMLPage.h; sourceTree = "<group>"; };
 		91B3D3981641872A003EC643 /* NoteToHTMLPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteToHTMLPage.m; sourceTree = "<group>"; };
@@ -302,7 +301,6 @@
 		91B3D43A16418C45003EC643 /* 57_wine_journal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57_wine_journal.png; sourceTree = "<group>"; };
 		91B3D43B16418C45003EC643 /* 114_wine_journal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114_wine_journal.png; sourceTree = "<group>"; };
 		91B3D43C16418C45003EC643 /* aweberform_iphone.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = aweberform_iphone.html; sourceTree = "<group>"; };
-		91B3D43D16418C45003EC643 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		91B3D43E16418C45003EC643 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		91B3D43F16418C45003EC643 /* dropbox_icon_35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropbox_icon_35.png; sourceTree = "<group>"; };
 		91B3D44016418C45003EC643 /* icon-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-book.png"; sourceTree = "<group>"; };
@@ -322,6 +320,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				913A36801649B02B00A7C284 /* DropboxSDK.framework in Frameworks */,
+				913A36811649B02B00A7C284 /* libGoogleAnalytics.a in Frameworks */,
 				913A36251649A18200A7C284 /* CFNetwork.framework in Frameworks */,
 				913A36241649A17900A7C284 /* Security.framework in Frameworks */,
 				913A36231649A17000A7C284 /* libsqlite3.dylib in Frameworks */,
@@ -337,6 +337,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				913A367E1649AFF100A7C284 /* DropboxSDK.framework in Frameworks */,
+				913A367F1649AFF100A7C284 /* libGoogleAnalytics.a in Frameworks */,
 				91B3D39016418560003EC643 /* MessageUI.framework in Frameworks */,
 				91B3D38C164184DF003EC643 /* QuartzCore.framework in Frameworks */,
 				91B3D38816418461003EC643 /* libsqlite3.dylib in Frameworks */,
@@ -345,8 +347,6 @@
 				91B3D2D21641834F003EC643 /* UIKit.framework in Frameworks */,
 				91B3D2D41641834F003EC643 /* Foundation.framework in Frameworks */,
 				91B3D2D61641834F003EC643 /* CoreGraphics.framework in Frameworks */,
-				91B3D38E1641853F003EC643 /* DropboxSDK.framework in Frameworks */,
-				91B3D391164185E4003EC643 /* libGoogleAnalytics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +382,6 @@
 			children = (
 				91B3D2D71641834F003EC643 /* TastingNotes */,
 				913A360A16499EEA00A7C284 /* TastingNotesHD */,
-				91B3D2D01641834F003EC643 /* Frameworks */,
 				91B3D2CE1641834F003EC643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -399,19 +398,20 @@
 		91B3D2D01641834F003EC643 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				913A36821649B04F00A7C284 /* GANTracker.h */,
+				913A367C1649AFF000A7C284 /* DropboxSDK.framework */,
+				913A367D1649AFF000A7C284 /* libGoogleAnalytics.a */,
 				91B3D38F16418560003EC643 /* MessageUI.framework */,
-				91B3D38D1641853F003EC643 /* DropboxSDK.framework */,
 				91B3D38B164184DF003EC643 /* QuartzCore.framework */,
 				91B3D38516418435003EC643 /* Security.framework */,
 				91B3D3831641842E003EC643 /* CFNetwork.framework */,
-				91B3D3891641849E003EC643 /* GANTracker.h */,
 				91B3D38716418461003EC643 /* libsqlite3.dylib */,
-				91B3D38A1641849E003EC643 /* libGoogleAnalytics.a */,
 				91B3D2D11641834F003EC643 /* UIKit.framework */,
 				91B3D2D31641834F003EC643 /* Foundation.framework */,
 				91B3D2D51641834F003EC643 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		91B3D2D71641834F003EC643 /* TastingNotes */ = {
@@ -421,6 +421,7 @@
 				91B3D42F164189A6003EC643 /* TNAppDelegate.m */,
 				91B3D39516418710003EC643 /* Model */,
 				91B3D3BC16418785003EC643 /* View */,
+				91B3D2D01641834F003EC643 /* Frameworks */,
 				91B3D2D81641834F003EC643 /* Supporting Files */,
 			);
 			path = TastingNotes;
@@ -434,7 +435,6 @@
 				91B3D43A16418C45003EC643 /* 57_wine_journal.png */,
 				91B3D43B16418C45003EC643 /* 114_wine_journal.png */,
 				91B3D43C16418C45003EC643 /* aweberform_iphone.html */,
-				91B3D43D16418C45003EC643 /* Default-568h@2x.png */,
 				91B3D43E16418C45003EC643 /* Default@2x.png */,
 				91B3D43F16418C45003EC643 /* dropbox_icon_35.png */,
 				91B3D44016418C45003EC643 /* icon-book.png */,
@@ -743,8 +743,6 @@
 				913A36611649A40C00A7C284 /* 57_wine_journal.png in Resources */,
 				913A36621649A40C00A7C284 /* 114_wine_journal.png in Resources */,
 				913A36631649A40C00A7C284 /* aweberform_iphone.html in Resources */,
-				913A36641649A40C00A7C284 /* Default-568h@2x.png in Resources */,
-				913A36651649A40C00A7C284 /* Default@2x.png in Resources */,
 				913A36661649A40C00A7C284 /* dropbox_icon_35.png in Resources */,
 				913A36671649A40C00A7C284 /* icon-book.png in Resources */,
 				913A36681649A40C00A7C284 /* icon-book@2x.png in Resources */,
@@ -768,7 +766,6 @@
 				91B3D44C16418C45003EC643 /* 57_wine_journal.png in Resources */,
 				91B3D44D16418C45003EC643 /* 114_wine_journal.png in Resources */,
 				91B3D44E16418C45003EC643 /* aweberform_iphone.html in Resources */,
-				91B3D44F16418C45003EC643 /* Default-568h@2x.png in Resources */,
 				91B3D45016418C45003EC643 /* Default@2x.png in Resources */,
 				91B3D45116418C45003EC643 /* dropbox_icon_35.png in Resources */,
 				91B3D45216418C45003EC643 /* icon-book.png in Resources */,
@@ -931,6 +928,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../../../Desktop/dropbox-ios-sdk-1.3.2\"",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TastingNotesHD/TastingNotesHD-Prefix.pch";
@@ -938,6 +938,9 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../../../Desktop/Google Analytics SDK/Library\"",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../Frameworks\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -951,6 +954,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../../../Desktop/dropbox-ios-sdk-1.3.2\"",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TastingNotesHD/TastingNotesHD-Prefix.pch";
@@ -958,6 +964,9 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../../../Desktop/Google Analytics SDK/Library\"",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../Frameworks\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -1020,6 +1029,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../../../Desktop\"",
+					"\"$(SRCROOT)/../Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TastingNotes/TastingNotes-Prefix.pch";
@@ -1027,6 +1038,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../../../Desktop\"",
+					"\"$(SRCROOT)/../Frameworks\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -1039,6 +1052,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../../../Desktop\"",
+					"\"$(SRCROOT)/../Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TastingNotes/TastingNotes-Prefix.pch";
@@ -1046,6 +1061,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../../../Desktop\"",
+					"\"$(SRCROOT)/../Frameworks\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
