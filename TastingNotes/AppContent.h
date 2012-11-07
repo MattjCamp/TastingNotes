@@ -33,7 +33,9 @@
 @property (unsafe_unretained) id <AppContentDelegate> delegate;
 @property(nonatomic, strong) Notebook *activeNotebook;
 @property(nonatomic, strong) NSMutableDictionary *userSettings;
+@property(nonatomic, assign)NotebookType noteBookType;
 
+-(void)setUpInititalNotebook;
 -(void)resetNotebookData;
 
 -(NSString *)cacheDirectory;

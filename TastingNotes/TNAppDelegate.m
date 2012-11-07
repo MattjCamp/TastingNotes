@@ -7,7 +7,7 @@
 //
 
 #import "TNAppDelegate.h"
-#import "AppContent.h"
+//#import "AppContent.h"
 #import "DropboxBackup.h"
 #import "Analytics.h"
 
@@ -18,12 +18,18 @@
     [[Analytics sharedAnalytics] startTracking];
 }
 
+-(void)setUpAppContent{
+    self.content = [AppContent sharedContent];
+    self.content.noteBookType = Wine;
+}
+
 -(void)applicationDidFinishLaunching:(UIApplication *)application{
     [self startTracker];
-    AppContent *content = [AppContent sharedContent];
+    [self setUpAppContent];
+    [self.content setUpInititalNotebook];
     UITabBarController *tbc = (UITabBarController *)self.window.rootViewController;
     UINavigationController *nc1 = [[tbc viewControllers] objectAtIndex:1];
-    nc1.tabBarItem.title = content.activeNotebook.name;
+    nc1.tabBarItem.title = self.content.activeNotebook.name;
     [self skinApp];
 }
 

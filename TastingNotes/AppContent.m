@@ -24,7 +24,7 @@ static AppContent *sharedObject = nil;
 -(id)init {
     if ((self = [super init])) {
         if(![[NSFileManager defaultManager] fileExistsAtPath:[self cacheDirectory] isDirectory:nil])
-           [[NSFileManager defaultManager] createDirectoryAtPath:[self cacheDirectory] withIntermediateDirectories:NO attributes:nil error:nil];
+            [[NSFileManager defaultManager] createDirectoryAtPath:[self cacheDirectory] withIntermediateDirectories:NO attributes:nil error:nil];
         
         NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
         userSettingsFilename = [NSString stringWithFormat:@"%@/UserSettings.plist", [paths lastObject]];
@@ -36,25 +36,34 @@ static AppContent *sharedObject = nil;
 		databaseVersion = nil;
 		appType = nil;
 		self.notebooks = [[Notebooks alloc] init];
-		if(!self.databaseIsInitialized){
-			[self.notebooks addNewNotebookWithThisType:Wine];
-			self.databaseIsInitialized = YES;
-		}
-		else{
-			//upgrade procedure
-		}
-        NSNumber *an = [self.userSettings objectForKey:@"ActiveNotebook"];
         
-        @try {
-            _activeNotebook = [self.notebooks.listOfNotebooks objectAtIndex:[an intValue]];
-        }
-        @catch (NSException *exception) {
-            NSLog(@"exception = %@", exception);
-            _activeNotebook = [self.notebooks.listOfNotebooks lastObject];
-        }
     }
     
     return self;
+}
+
+-(void)setUpInititalNotebook{
+    if(!self.databaseIsInitialized){
+        if(self.noteBookType){
+            [self.notebooks addNewNotebookWithThisType:[self noteBookType]];
+            self.databaseIsInitialized = YES;
+        }
+        else{
+            NSLog(@"We need to specify a notebook type for this app");
+        }
+    }
+    else{
+        //upgrade procedure
+    }
+    NSNumber *an = [self.userSettings objectForKey:@"ActiveNotebook"];
+    
+    @try {
+        _activeNotebook = [self.notebooks.listOfNotebooks objectAtIndex:[an intValue]];
+    }
+    @catch (NSException *exception) {
+        NSLog(@"exception = %@", exception);
+        _activeNotebook = [self.notebooks.listOfNotebooks lastObject];
+    }
 }
 
 #pragma mark Properties

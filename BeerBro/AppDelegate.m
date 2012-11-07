@@ -16,4 +16,9 @@
     [[Analytics sharedAnalytics] startTracking];
 }
 
+-(void)setUpAppContent{
+    self.content = [AppContent sharedContent];
+    self.content.noteBookType = Beer;
+}
+
 @end

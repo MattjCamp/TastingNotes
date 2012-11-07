@@ -188,7 +188,7 @@
 		}
 			break;
 		case 1:{
-			[self addNewNotebookWithThisName:@"Beer Notebook"];
+			[self addNewNotebookWithThisName:@"Beers"];
 			notebook = [listOfNotebooks lastObject];
 			
 			[notebook addSectionToThisNotebook];
@@ -231,7 +231,7 @@
 		}
 			break;
 		case 2:{
-			[self addNewNotebookWithThisName:@"Whiskey Notebook"];
+			[self addNewNotebookWithThisName:@"Whiskey"];
 			notebook = [listOfNotebooks lastObject];
 			
 			[notebook addSectionToThisNotebook];
@@ -281,7 +281,7 @@
 		}
 			break;
 		case 3:{
-			[self addNewNotebookWithThisName:@"Cigar Notebook"];
+			[self addNewNotebookWithThisName:@"Cigars"];
 			notebook = [listOfNotebooks lastObject];
 			
 			[notebook addSectionToThisNotebook];
@@ -324,7 +324,7 @@
 		}
 			break;
 		case 4:{
-			[self addNewNotebookWithThisName:@"Coffee Notebook"];
+			[self addNewNotebookWithThisName:@"Coffee"];
 			notebook = [listOfNotebooks lastObject];
 			
 			[notebook addSectionToThisNotebook];

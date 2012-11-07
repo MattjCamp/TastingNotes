@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppContent.h"
 
 @interface TNAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (nonatomic, strong) UIWindow *window;
+@property (nonatomic, strong)AppContent *content;
 
 -(void)startTracker;
 -(void)lockEditingWhileDoingDatabaseRestore;
