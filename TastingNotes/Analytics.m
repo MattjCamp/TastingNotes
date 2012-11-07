@@ -29,10 +29,13 @@ static Analytics *_sharedAnalytics = nil;
 
 -(void)startTracking{
     [self.backgroundQueue addOperationWithBlock:^{
-        [[GANTracker sharedTracker] startTrackerWithAccountID:@"UA-35331153-1"
-                                               dispatchPeriod:10
-                                                     delegate:nil];
-        NSLog(@"Tracker started");
+        if(self.webPropertyID){
+            [[GANTracker sharedTracker] startTrackerWithAccountID:self.webPropertyID
+                                                   dispatchPeriod:10
+                                                         delegate:nil];
+            NSLog(@"Tracker started");
+        }else
+            NSLog(@"We need a web property ID to start tracking");
     }];
 }
 

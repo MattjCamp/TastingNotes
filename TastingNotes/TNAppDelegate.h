@@ -12,6 +12,7 @@
 
 @property (nonatomic, strong) UIWindow *window;
 
+-(void)startTracker;
 -(void)lockEditingWhileDoingDatabaseRestore;
 -(void)unlockEditingAfterDoingDatabaseRestore;
 

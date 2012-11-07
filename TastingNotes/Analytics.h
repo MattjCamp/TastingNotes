@@ -13,6 +13,7 @@
 +(id)sharedAnalytics;
 
 @property(nonatomic, strong)NSOperationQueue *backgroundQueue;
+@property(nonatomic, strong)NSString *webPropertyID;
 
 -(void)startTracking;
 -(void)stopTracking;

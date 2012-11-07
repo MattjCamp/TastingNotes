@@ -13,8 +13,13 @@
 
 @implementation TNAppDelegate
 
--(void)applicationDidFinishLaunching:(UIApplication *)application{
+-(void)startTracker{
+    [[Analytics sharedAnalytics] setWebPropertyID:@"UA-35331153-1"];
     [[Analytics sharedAnalytics] startTracking];
+}
+
+-(void)applicationDidFinishLaunching:(UIApplication *)application{
+    [self startTracker];
     AppContent *content = [AppContent sharedContent];
     UITabBarController *tbc = (UITabBarController *)self.window.rootViewController;
     UINavigationController *nc1 = [[tbc viewControllers] objectAtIndex:1];

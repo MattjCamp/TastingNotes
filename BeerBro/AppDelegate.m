@@ -7,7 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "Analytics.h"
 
 @implementation AppDelegate
+
+-(void)startTracker{
+    //[[Analytics sharedAnalytics] setWebPropertyID:@"UA-35331153-1"];
+    [[Analytics sharedAnalytics] startTracking];
+}
 
 @end
