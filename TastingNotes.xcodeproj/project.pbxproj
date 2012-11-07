@@ -91,6 +91,8 @@
 		913A367F1649AFF100A7C284 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A367D1649AFF000A7C284 /* libGoogleAnalytics.a */; };
 		913A36801649B02B00A7C284 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A367C1649AFF000A7C284 /* DropboxSDK.framework */; };
 		913A36811649B02B00A7C284 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A367D1649AFF000A7C284 /* libGoogleAnalytics.a */; };
+		913FF4321649B8F300633BB0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 913FF4311649B8F300633BB0 /* Icon@2x.png */; };
+		913FF4341649B8F600633BB0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 913FF4331649B8F600633BB0 /* Icon.png */; };
 		91B3D2D21641834F003EC643 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D2D11641834F003EC643 /* UIKit.framework */; };
 		91B3D2D41641834F003EC643 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D2D31641834F003EC643 /* Foundation.framework */; };
 		91B3D2D61641834F003EC643 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D2D51641834F003EC643 /* CoreGraphics.framework */; };
@@ -184,6 +186,11 @@
 		913A367C1649AFF000A7C284 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DropboxSDK.framework; path = ../Frameworks/DropboxSDK.framework; sourceTree = "<group>"; };
 		913A367D1649AFF000A7C284 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = ../Frameworks/libGoogleAnalytics.a; sourceTree = "<group>"; };
 		913A36821649B04F00A7C284 /* GANTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GANTracker.h; sourceTree = "<group>"; };
+		913A368A1649B20E00A7C284 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		913A368C1649B20E00A7C284 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		913A368E1649B20E00A7C284 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		913FF4311649B8F300633BB0 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		913FF4331649B8F600633BB0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
 		91B3D2CD1641834F003EC643 /* TastingNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TastingNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B3D2D11641834F003EC643 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		91B3D2D31641834F003EC643 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -366,6 +373,8 @@
 		913A360B16499EEA00A7C284 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				913FF4331649B8F600633BB0 /* Icon.png */,
+				913FF4311649B8F300633BB0 /* Icon@2x.png */,
 				913A360C16499EEA00A7C284 /* TastingNotesHD-Info.plist */,
 				913A360D16499EEA00A7C284 /* InfoPlist.strings */,
 				913A361016499EEA00A7C284 /* main.m */,
@@ -377,11 +386,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		913A36891649B20D00A7C284 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				913A368A1649B20E00A7C284 /* UIKit.framework */,
+				913A368C1649B20E00A7C284 /* Foundation.framework */,
+				913A368E1649B20E00A7C284 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		91B3D2C21641834F003EC643 = {
 			isa = PBXGroup;
 			children = (
 				91B3D2D71641834F003EC643 /* TastingNotes */,
 				913A360A16499EEA00A7C284 /* TastingNotesHD */,
+				913A36891649B20D00A7C284 /* Frameworks */,
 				91B3D2CE1641834F003EC643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -752,6 +772,8 @@
 				913A366C1649A40C00A7C284 /* paddb.sql in Resources */,
 				913A366D1649A40C00A7C284 /* tastingnotesnotestyledefault.css in Resources */,
 				913A366E1649A40C00A7C284 /* winebottle4.jpeg in Resources */,
+				913FF4321649B8F300633BB0 /* Icon@2x.png in Resources */,
+				913FF4341649B8F600633BB0 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1079,6 +1101,7 @@
 				913A361D16499EEA00A7C284 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91B3D2C71641834F003EC643 /* Build configuration list for PBXProject "TastingNotes" */ = {
 			isa = XCConfigurationList;
