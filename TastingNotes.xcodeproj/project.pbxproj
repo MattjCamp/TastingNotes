@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9130DF86164AC1B200FC1142 /* BeerBro-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9130DF85164AC1B200FC1142 /* BeerBro-Info.plist */; };
+		9130DF90164AC1C100FC1142 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9130DF89164AC1C100FC1142 /* Default-568h@2x.png */; };
+		9130DF91164AC1C100FC1142 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9130DF8A164AC1C100FC1142 /* Default.png */; };
+		9130DF92164AC1C100FC1142 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9130DF8B164AC1C100FC1142 /* Default@2x.png */; };
+		9130DF93164AC1C100FC1142 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9130DF8D164AC1C100FC1142 /* InfoPlist.strings */; };
+		9130DF94164AC1C100FC1142 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9130DF8F164AC1C100FC1142 /* main.m */; };
 		913A360716499EEA00A7C284 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D2D11641834F003EC643 /* UIKit.framework */; };
 		913A360816499EEA00A7C284 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D2D31641834F003EC643 /* Foundation.framework */; };
 		913A360916499EEA00A7C284 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D2D51641834F003EC643 /* CoreGraphics.framework */; };
@@ -93,6 +99,82 @@
 		913A36811649B02B00A7C284 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A367D1649AFF000A7C284 /* libGoogleAnalytics.a */; };
 		913FF4321649B8F300633BB0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 913FF4311649B8F300633BB0 /* Icon@2x.png */; };
 		913FF4341649B8F600633BB0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 913FF4331649B8F600633BB0 /* Icon.png */; };
+		913FF446164ABD5F00633BB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A368A1649B20E00A7C284 /* UIKit.framework */; };
+		913FF447164ABD5F00633BB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A368C1649B20E00A7C284 /* Foundation.framework */; };
+		913FF448164ABD5F00633BB0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A368E1649B20E00A7C284 /* CoreGraphics.framework */; };
+		913FF45E164ABD7E00633BB0 /* TNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D42F164189A6003EC643 /* TNAppDelegate.m */; };
+		913FF45F164ABD9B00633BB0 /* AppContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3A216418762003EC643 /* AppContent.m */; };
+		913FF460164ABD9B00633BB0 /* Analytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3A416418762003EC643 /* Analytics.m */; };
+		913FF461164ABD9B00633BB0 /* DropboxBackup.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3A616418762003EC643 /* DropboxBackup.m */; };
+		913FF462164ABD9B00633BB0 /* Notebooks.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3A816418762003EC643 /* Notebooks.m */; };
+		913FF463164ABD9B00633BB0 /* Notebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3AA16418762003EC643 /* Notebook.m */; };
+		913FF464164ABD9B00633BB0 /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3AC16418762003EC643 /* Section.m */; };
+		913FF465164ABD9B00633BB0 /* Control.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3AE16418762003EC643 /* Control.m */; };
+		913FF466164ABD9B00633BB0 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3B016418762003EC643 /* Note.m */; };
+		913FF467164ABD9B00633BB0 /* Content.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3B216418762003EC643 /* Content.m */; };
+		913FF468164ABD9B00633BB0 /* ListControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D43316418A3B003EC643 /* ListControl.m */; };
+		913FF469164ABD9B00633BB0 /* ListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D43516418A3B003EC643 /* ListItem.m */; };
+		913FF46A164ABD9B00633BB0 /* SQLiteColumnMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D39C16418741003EC643 /* SQLiteColumnMetaData.m */; };
+		913FF46B164ABD9B00633BB0 /* SQLiteDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D39E16418741003EC643 /* SQLiteDB.m */; };
+		913FF46C164ABD9B00633BB0 /* NoteToHTMLPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3981641872A003EC643 /* NoteToHTMLPage.m */; };
+		913FF46D164ABDC700633BB0 /* NoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D401164188EF003EC643 /* NoteView.m */; };
+		913FF46E164ABDC700633BB0 /* ContentFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D42316418962003EC643 /* ContentFullScreen.m */; };
+		913FF46F164ABDC700633BB0 /* ImageEditorFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D42516418962003EC643 /* ImageEditorFullScreen.m */; };
+		913FF470164ABDC700633BB0 /* ListEditorFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D42716418962003EC643 /* ListEditorFullScreen.m */; };
+		913FF471164ABDC700633BB0 /* ListEditorListItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D42916418962003EC643 /* ListEditorListItemCell.m */; };
+		913FF472164ABDC700633BB0 /* ContentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D40E1641894B003EC643 /* ContentTableViewCell.m */; };
+		913FF473164ABDC700633BB0 /* SimpleContentPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D4101641894B003EC643 /* SimpleContentPresenter.m */; };
+		913FF474164ABDC700633BB0 /* RatingsEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D4121641894B003EC643 /* RatingsEditor.m */; };
+		913FF475164ABDC700633BB0 /* HundredPointRatingsEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D4141641894B003EC643 /* HundredPointRatingsEditor.m */; };
+		913FF476164ABDC700633BB0 /* ImageEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D4161641894B003EC643 /* ImageEditor.m */; };
+		913FF477164ABDC700633BB0 /* DateEditorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D4181641894B003EC643 /* DateEditorCell.m */; };
+		913FF478164ABDC700633BB0 /* ListEditorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D41A1641894B003EC643 /* ListEditorCell.m */; };
+		913FF479164ABDCE00633BB0 /* NoteTextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D40516418930003EC643 /* NoteTextEditor.m */; };
+		913FF47A164ABDCE00633BB0 /* NumberEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D40716418930003EC643 /* NumberEditor.m */; };
+		913FF47B164ABDCE00633BB0 /* CurrencyEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D40916418930003EC643 /* CurrencyEditor.m */; };
+		913FF47C164ABDDF00633BB0 /* NotebookView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3F5164188C5003EC643 /* NotebookView.m */; };
+		913FF47D164ABDDF00633BB0 /* NoteSummaryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3F7164188C5003EC643 /* NoteSummaryTableViewCell.m */; };
+		913FF47E164ABDDF00633BB0 /* NotebookSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3F9164188C5003EC643 /* NotebookSelectorView.m */; };
+		913FF47F164ABDF000633BB0 /* NotebookEditorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3D6164188A4003EC643 /* NotebookEditorVC.m */; };
+		913FF480164ABDF000633BB0 /* NotebookNameEditorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3D8164188A4003EC643 /* NotebookNameEditorVC.m */; };
+		913FF481164ABDF000633BB0 /* ControlsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3DA164188A4003EC643 /* ControlsVC.m */; };
+		913FF482164ABDF000633BB0 /* ControlOverviewEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3DC164188A4003EC643 /* ControlOverviewEditor.m */; };
+		913FF483164ABDF000633BB0 /* ControlNameEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3DE164188A4003EC643 /* ControlNameEditor.m */; };
+		913FF484164ABDF000633BB0 /* SectionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3E0164188A4003EC643 /* SectionsVC.m */; };
+		913FF485164ABDF000633BB0 /* SectionNameEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3E2164188A4003EC643 /* SectionNameEditor.m */; };
+		913FF486164ABDF000633BB0 /* PlacardTopLevelEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3E4164188A4003EC643 /* PlacardTopLevelEditor.m */; };
+		913FF487164ABDF000633BB0 /* PlacardContentChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3E6164188A4003EC643 /* PlacardContentChooser.m */; };
+		913FF488164ABDF000633BB0 /* PlacardNoteSummaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3E8164188A4003EC643 /* PlacardNoteSummaryView.m */; };
+		913FF489164ABDFA00633BB0 /* SettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3C616418874003EC643 /* SettingsView.m */; };
+		913FF48A164ABDFA00633BB0 /* BackupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3C816418874003EC643 /* BackupView.m */; };
+		913FF48B164ABDFA00633BB0 /* SettingsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3CA16418874003EC643 /* SettingsTVC.m */; };
+		913FF48C164ABDFA00633BB0 /* ContactUsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3CC16418874003EC643 /* ContactUsTVC.m */; };
+		913FF48D164ABDFA00633BB0 /* BlogWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3CE16418874003EC643 /* BlogWebView.m */; };
+		913FF48E164ABE0100633BB0 /* NoteAdder.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3C216418859003EC643 /* NoteAdder.m */; };
+		913FF48F164ABE0100633BB0 /* Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D3BE16418844003EC643 /* Storyboard_iPhone.storyboard */; };
+		913FF490164ABE3600633BB0 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A367C1649AFF000A7C284 /* DropboxSDK.framework */; };
+		913FF491164ABE3900633BB0 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A367D1649AFF000A7C284 /* libGoogleAnalytics.a */; };
+		913FF492164ABE4400633BB0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D38F16418560003EC643 /* MessageUI.framework */; };
+		913FF493164ABE4400633BB0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D38B164184DF003EC643 /* QuartzCore.framework */; };
+		913FF494164ABE4400633BB0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D38516418435003EC643 /* Security.framework */; };
+		913FF495164ABE4400633BB0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D3831641842E003EC643 /* CFNetwork.framework */; };
+		913FF496164ABE4700633BB0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D38716418461003EC643 /* libsqlite3.dylib */; };
+		913FF497164ABE6B00633BB0 /* 001_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43816418C45003EC643 /* 001_15.png */; };
+		913FF498164ABE6B00633BB0 /* 001_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43916418C45003EC643 /* 001_17.png */; };
+		913FF499164ABE6B00633BB0 /* aweberform_iphone.html in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43C16418C45003EC643 /* aweberform_iphone.html */; };
+		913FF49A164ABE6B00633BB0 /* icon-book.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44016418C45003EC643 /* icon-book.png */; };
+		913FF49B164ABE6B00633BB0 /* icon-book@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44116418C45003EC643 /* icon-book@2x.png */; };
+		913FF49C164ABE6B00633BB0 /* icon-erase.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44216418C45003EC643 /* icon-erase.png */; };
+		913FF49D164ABE6B00633BB0 /* icon-erase@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44316418C45003EC643 /* icon-erase@2x.png */; };
+		913FF49E164ABE6B00633BB0 /* icon-settings2.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44416418C45003EC643 /* icon-settings2.png */; };
+		913FF49F164ABE6B00633BB0 /* icon-settings2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44516418C45003EC643 /* icon-settings2@2x.png */; };
+		913FF4A0164ABE6B00633BB0 /* mam_logo_35.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44616418C45003EC643 /* mam_logo_35.png */; };
+		913FF4A1164ABE6B00633BB0 /* paddb.sql in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44716418C45003EC643 /* paddb.sql */; };
+		913FF4A2164ABE6B00633BB0 /* tastingnotesnotestyledefault.css in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44816418C45003EC643 /* tastingnotesnotestyledefault.css */; };
+		913FF4A3164ABE6B00633BB0 /* winebottle4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44916418C45003EC643 /* winebottle4.jpeg */; };
+		913FF4A4164ABE8D00633BB0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 913FF4311649B8F300633BB0 /* Icon@2x.png */; };
+		913FF4A5164ABE8F00633BB0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 913FF4331649B8F600633BB0 /* Icon.png */; };
+		913FF4B5164ABFA300633BB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 913FF4B4164ABFA300633BB0 /* AppDelegate.m */; };
 		91B3D2D21641834F003EC643 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D2D11641834F003EC643 /* UIKit.framework */; };
 		91B3D2D41641834F003EC643 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D2D31641834F003EC643 /* Foundation.framework */; };
 		91B3D2D61641834F003EC643 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D2D51641834F003EC643 /* CoreGraphics.framework */; };
@@ -173,6 +255,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9130DF85164AC1B200FC1142 /* BeerBro-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BeerBro-Info.plist"; sourceTree = "<group>"; };
+		9130DF88164AC1C100FC1142 /* BeerBro-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeerBro-Prefix.pch"; sourceTree = "<group>"; };
+		9130DF89164AC1C100FC1142 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9130DF8A164AC1C100FC1142 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9130DF8B164AC1C100FC1142 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9130DF8E164AC1C100FC1142 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		9130DF8F164AC1C100FC1142 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		913A360516499EEA00A7C284 /* TastingNotesHD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TastingNotesHD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		913A360C16499EEA00A7C284 /* TastingNotesHD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TastingNotesHD-Info.plist"; sourceTree = "<group>"; };
 		913A360E16499EEA00A7C284 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -191,6 +280,9 @@
 		913A368E1649B20E00A7C284 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		913FF4311649B8F300633BB0 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
 		913FF4331649B8F600633BB0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		913FF444164ABD5F00633BB0 /* BeerBro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeerBro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		913FF4B3164ABFA300633BB0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		913FF4B4164ABFA300633BB0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		91B3D2CD1641834F003EC643 /* TastingNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TastingNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B3D2D11641834F003EC643 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		91B3D2D31641834F003EC643 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -340,6 +432,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		913FF441164ABD5F00633BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913FF446164ABD5F00633BB0 /* UIKit.framework in Frameworks */,
+				913FF447164ABD5F00633BB0 /* Foundation.framework in Frameworks */,
+				913FF448164ABD5F00633BB0 /* CoreGraphics.framework in Frameworks */,
+				913FF490164ABE3600633BB0 /* DropboxSDK.framework in Frameworks */,
+				913FF491164ABE3900633BB0 /* libGoogleAnalytics.a in Frameworks */,
+				913FF492164ABE4400633BB0 /* MessageUI.framework in Frameworks */,
+				913FF493164ABE4400633BB0 /* QuartzCore.framework in Frameworks */,
+				913FF494164ABE4400633BB0 /* Security.framework in Frameworks */,
+				913FF495164ABE4400633BB0 /* CFNetwork.framework in Frameworks */,
+				913FF496164ABE4700633BB0 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		91B3D2CA1641834F003EC643 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,6 +469,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9130DF8C164AC1C100FC1142 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				9130DF8D164AC1C100FC1142 /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
 		913A360A16499EEA00A7C284 /* TastingNotesHD */ = {
 			isa = PBXGroup;
 			children = (
@@ -396,11 +513,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		913FF449164ABD5F00633BB0 /* BeerBro */ = {
+			isa = PBXGroup;
+			children = (
+				913FF4B3164ABFA300633BB0 /* AppDelegate.h */,
+				913FF4B4164ABFA300633BB0 /* AppDelegate.m */,
+				913FF44A164ABD5F00633BB0 /* Supporting Files */,
+			);
+			path = BeerBro;
+			sourceTree = "<group>";
+		};
+		913FF44A164ABD5F00633BB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9130DF88164AC1C100FC1142 /* BeerBro-Prefix.pch */,
+				9130DF89164AC1C100FC1142 /* Default-568h@2x.png */,
+				9130DF8A164AC1C100FC1142 /* Default.png */,
+				9130DF8B164AC1C100FC1142 /* Default@2x.png */,
+				9130DF8C164AC1C100FC1142 /* en.lproj */,
+				9130DF8F164AC1C100FC1142 /* main.m */,
+				9130DF85164AC1B200FC1142 /* BeerBro-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		91B3D2C21641834F003EC643 = {
 			isa = PBXGroup;
 			children = (
 				91B3D2D71641834F003EC643 /* TastingNotes */,
 				913A360A16499EEA00A7C284 /* TastingNotesHD */,
+				913FF449164ABD5F00633BB0 /* BeerBro */,
 				913A36891649B20D00A7C284 /* Frameworks */,
 				91B3D2CE1641834F003EC643 /* Products */,
 			);
@@ -411,6 +553,7 @@
 			children = (
 				91B3D2CD1641834F003EC643 /* TastingNotes.app */,
 				913A360516499EEA00A7C284 /* TastingNotesHD.app */,
+				913FF444164ABD5F00633BB0 /* BeerBro.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -702,6 +845,23 @@
 			productReference = 913A360516499EEA00A7C284 /* TastingNotesHD.app */;
 			productType = "com.apple.product-type.application";
 		};
+		913FF443164ABD5F00633BB0 /* BeerBro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 913FF45B164ABD5F00633BB0 /* Build configuration list for PBXNativeTarget "BeerBro" */;
+			buildPhases = (
+				913FF440164ABD5F00633BB0 /* Sources */,
+				913FF441164ABD5F00633BB0 /* Frameworks */,
+				913FF442164ABD5F00633BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeerBro;
+			productName = BeerBro;
+			productReference = 913FF444164ABD5F00633BB0 /* BeerBro.app */;
+			productType = "com.apple.product-type.application";
+		};
 		91B3D2CC1641834F003EC643 /* TastingNotes */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91B3D2EB1641834F003EC643 /* Build configuration list for PBXNativeTarget "TastingNotes" */;
@@ -742,6 +902,7 @@
 			targets = (
 				91B3D2CC1641834F003EC643 /* TastingNotes */,
 				913A360416499EEA00A7C284 /* TastingNotesHD */,
+				913FF443164ABD5F00633BB0 /* BeerBro */,
 			);
 		};
 /* End PBXProject section */
@@ -774,6 +935,34 @@
 				913A366E1649A40C00A7C284 /* winebottle4.jpeg in Resources */,
 				913FF4321649B8F300633BB0 /* Icon@2x.png in Resources */,
 				913FF4341649B8F600633BB0 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		913FF442164ABD5F00633BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913FF48F164ABE0100633BB0 /* Storyboard_iPhone.storyboard in Resources */,
+				913FF497164ABE6B00633BB0 /* 001_15.png in Resources */,
+				913FF498164ABE6B00633BB0 /* 001_17.png in Resources */,
+				913FF499164ABE6B00633BB0 /* aweberform_iphone.html in Resources */,
+				913FF49A164ABE6B00633BB0 /* icon-book.png in Resources */,
+				913FF49B164ABE6B00633BB0 /* icon-book@2x.png in Resources */,
+				913FF49C164ABE6B00633BB0 /* icon-erase.png in Resources */,
+				913FF49D164ABE6B00633BB0 /* icon-erase@2x.png in Resources */,
+				913FF49E164ABE6B00633BB0 /* icon-settings2.png in Resources */,
+				913FF49F164ABE6B00633BB0 /* icon-settings2@2x.png in Resources */,
+				913FF4A0164ABE6B00633BB0 /* mam_logo_35.png in Resources */,
+				913FF4A1164ABE6B00633BB0 /* paddb.sql in Resources */,
+				913FF4A2164ABE6B00633BB0 /* tastingnotesnotestyledefault.css in Resources */,
+				913FF4A3164ABE6B00633BB0 /* winebottle4.jpeg in Resources */,
+				913FF4A4164ABE8D00633BB0 /* Icon@2x.png in Resources */,
+				913FF4A5164ABE8F00633BB0 /* Icon.png in Resources */,
+				9130DF86164AC1B200FC1142 /* BeerBro-Info.plist in Resources */,
+				9130DF90164AC1C100FC1142 /* Default-568h@2x.png in Resources */,
+				9130DF91164AC1C100FC1142 /* Default.png in Resources */,
+				9130DF92164AC1C100FC1142 /* Default@2x.png in Resources */,
+				9130DF93164AC1C100FC1142 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -864,6 +1053,64 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		913FF440164ABD5F00633BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913FF45E164ABD7E00633BB0 /* TNAppDelegate.m in Sources */,
+				913FF45F164ABD9B00633BB0 /* AppContent.m in Sources */,
+				913FF460164ABD9B00633BB0 /* Analytics.m in Sources */,
+				913FF461164ABD9B00633BB0 /* DropboxBackup.m in Sources */,
+				913FF462164ABD9B00633BB0 /* Notebooks.m in Sources */,
+				913FF463164ABD9B00633BB0 /* Notebook.m in Sources */,
+				913FF464164ABD9B00633BB0 /* Section.m in Sources */,
+				913FF465164ABD9B00633BB0 /* Control.m in Sources */,
+				913FF466164ABD9B00633BB0 /* Note.m in Sources */,
+				913FF467164ABD9B00633BB0 /* Content.m in Sources */,
+				913FF468164ABD9B00633BB0 /* ListControl.m in Sources */,
+				913FF469164ABD9B00633BB0 /* ListItem.m in Sources */,
+				913FF46A164ABD9B00633BB0 /* SQLiteColumnMetaData.m in Sources */,
+				913FF46B164ABD9B00633BB0 /* SQLiteDB.m in Sources */,
+				913FF46C164ABD9B00633BB0 /* NoteToHTMLPage.m in Sources */,
+				913FF46D164ABDC700633BB0 /* NoteView.m in Sources */,
+				913FF46E164ABDC700633BB0 /* ContentFullScreen.m in Sources */,
+				913FF46F164ABDC700633BB0 /* ImageEditorFullScreen.m in Sources */,
+				913FF470164ABDC700633BB0 /* ListEditorFullScreen.m in Sources */,
+				913FF471164ABDC700633BB0 /* ListEditorListItemCell.m in Sources */,
+				913FF472164ABDC700633BB0 /* ContentTableViewCell.m in Sources */,
+				913FF473164ABDC700633BB0 /* SimpleContentPresenter.m in Sources */,
+				913FF474164ABDC700633BB0 /* RatingsEditor.m in Sources */,
+				913FF475164ABDC700633BB0 /* HundredPointRatingsEditor.m in Sources */,
+				913FF476164ABDC700633BB0 /* ImageEditor.m in Sources */,
+				913FF477164ABDC700633BB0 /* DateEditorCell.m in Sources */,
+				913FF478164ABDC700633BB0 /* ListEditorCell.m in Sources */,
+				913FF479164ABDCE00633BB0 /* NoteTextEditor.m in Sources */,
+				913FF47A164ABDCE00633BB0 /* NumberEditor.m in Sources */,
+				913FF47B164ABDCE00633BB0 /* CurrencyEditor.m in Sources */,
+				913FF47C164ABDDF00633BB0 /* NotebookView.m in Sources */,
+				913FF47D164ABDDF00633BB0 /* NoteSummaryTableViewCell.m in Sources */,
+				913FF47E164ABDDF00633BB0 /* NotebookSelectorView.m in Sources */,
+				913FF47F164ABDF000633BB0 /* NotebookEditorVC.m in Sources */,
+				913FF480164ABDF000633BB0 /* NotebookNameEditorVC.m in Sources */,
+				913FF481164ABDF000633BB0 /* ControlsVC.m in Sources */,
+				913FF482164ABDF000633BB0 /* ControlOverviewEditor.m in Sources */,
+				913FF483164ABDF000633BB0 /* ControlNameEditor.m in Sources */,
+				913FF484164ABDF000633BB0 /* SectionsVC.m in Sources */,
+				913FF485164ABDF000633BB0 /* SectionNameEditor.m in Sources */,
+				913FF486164ABDF000633BB0 /* PlacardTopLevelEditor.m in Sources */,
+				913FF487164ABDF000633BB0 /* PlacardContentChooser.m in Sources */,
+				913FF488164ABDF000633BB0 /* PlacardNoteSummaryView.m in Sources */,
+				913FF489164ABDFA00633BB0 /* SettingsView.m in Sources */,
+				913FF48A164ABDFA00633BB0 /* BackupView.m in Sources */,
+				913FF48B164ABDFA00633BB0 /* SettingsTVC.m in Sources */,
+				913FF48C164ABDFA00633BB0 /* ContactUsTVC.m in Sources */,
+				913FF48D164ABDFA00633BB0 /* BlogWebView.m in Sources */,
+				913FF48E164ABE0100633BB0 /* NoteAdder.m in Sources */,
+				913FF4B5164ABFA300633BB0 /* AppDelegate.m in Sources */,
+				9130DF94164AC1C100FC1142 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		91B3D2C91641834F003EC643 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -924,6 +1171,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		9130DF8D164AC1C100FC1142 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9130DF8E164AC1C100FC1142 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		913A360D16499EEA00A7C284 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -988,6 +1243,46 @@
 					"\"$(SRCROOT)/../../../../../Desktop/Google Analytics SDK/Library\"",
 					"\"$(SRCROOT)/..\"",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../Frameworks\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		913FF45C164ABD5F00633BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeerBro/BeerBro-Prefix.pch";
+				INFOPLIST_FILE = "BeerBro/BeerBro-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Frameworks\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		913FF45D164ABD5F00633BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeerBro/BeerBro-Prefix.pch";
+				INFOPLIST_FILE = "BeerBro/BeerBro-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
 					"\"$(SRCROOT)/../Frameworks\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1099,6 +1394,15 @@
 			buildConfigurations = (
 				913A361C16499EEA00A7C284 /* Debug */,
 				913A361D16499EEA00A7C284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		913FF45B164ABD5F00633BB0 /* Build configuration list for PBXNativeTarget "BeerBro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913FF45C164ABD5F00633BB0 /* Debug */,
+				913FF45D164ABD5F00633BB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
