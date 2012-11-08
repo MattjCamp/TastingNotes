@@ -91,7 +91,7 @@ static DropboxBackup *singletonInstance = nil;
     self.restClient = [[DBRestClient alloc] initWithSession:[DBSession sharedSession]];
     self.restClient.delegate = self;
     [self.restClient loadFile:self.dropboxDBFilePathName
-                     intoPath:[self localDBFilePathName]];
+                     intoPath:self.localDBFilePathName];
     [[Analytics sharedAnalytics]thisUserActionOccured:@"Database Restored"
                                       forThisCategory:@"Utilities"
                                             thisValue:-1];
