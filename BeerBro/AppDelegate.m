@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "Analytics.h"
+#import "DropboxBackup.h"
 
 @implementation AppDelegate
 
@@ -19,6 +20,15 @@
 -(void)setUpAppContent{
     self.content = [AppContent sharedContent];
     self.content.noteBookType = Beer;
+}
+
+-(void)startDropbox{
+    DropboxBackup *db = [DropboxBackup sharedDropbox];
+    db.appKey = @"oovx72dm7b1yfgy";
+    db.appSecret = @"99m7vpzorb1qsmd";
+    db.root = kDBRootAppFolder;
+    db.dropboxDBFilePathName = @"/paddb.sql";
+    db.dropboxFolderPathName = @"/";
 }
 
 @end

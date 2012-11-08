@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9101099A164C44070042D253 /* dropbox_icon_35.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43F16418C45003EC643 /* dropbox_icon_35.png */; };
 		9130DF86164AC1B200FC1142 /* BeerBro-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9130DF85164AC1B200FC1142 /* BeerBro-Info.plist */; };
 		9130DF90164AC1C100FC1142 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9130DF89164AC1C100FC1142 /* Default-568h@2x.png */; };
 		9130DF91164AC1C100FC1142 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9130DF8A164AC1C100FC1142 /* Default.png */; };
@@ -963,6 +964,7 @@
 				9130DF91164AC1C100FC1142 /* Default.png in Resources */,
 				9130DF92164AC1C100FC1142 /* Default@2x.png in Resources */,
 				9130DF93164AC1C100FC1142 /* InfoPlist.strings in Resources */,
+				9101099A164C44070042D253 /* dropbox_icon_35.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

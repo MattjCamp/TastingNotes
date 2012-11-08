@@ -23,9 +23,13 @@
 
 @property (nonatomic) DBRestClient* restClient;
 @property (strong) DBMetadata *databaseMetadata;
+@property (strong) NSString *appKey;
+@property (strong) NSString *appSecret;
+@property (strong) NSString *root;
+@property (strong) NSString *dropboxDBFilePathName;
+@property (strong) NSString *dropboxFolderPathName;
 
 -(NSString *)localDBFilePathName;
--(NSString *)dropboxDBFilePathName;
 
 -(void)startSessionThenDoThisWhenReady:(void(^)())finishingLoadingBlock;
 -(void)linkFromViewController:(UIViewController *)vc

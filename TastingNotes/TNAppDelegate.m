@@ -7,7 +7,6 @@
 //
 
 #import "TNAppDelegate.h"
-//#import "AppContent.h"
 #import "DropboxBackup.h"
 #import "Analytics.h"
 
@@ -23,9 +22,19 @@
     self.content.noteBookType = Wine;
 }
 
+-(void)startDropbox{
+    DropboxBackup *db = [DropboxBackup sharedDropbox];
+    db.appKey = @"70m5g2c6cyr0pfw";
+    db.appSecret = @"rnpfck1mkyqbi4p";
+    db.root = kDBRootDropbox;
+    db.dropboxDBFilePathName = @"/tastingnotesappbackup/paddb.sql";
+    db.dropboxFolderPathName = @"/tastingnotesappbackup";
+}
+
 -(void)applicationDidFinishLaunching:(UIApplication *)application{
     [self startTracker];
     [self setUpAppContent];
+    [self startDropbox];
     [self.content setUpInititalNotebook];
     UITabBarController *tbc = (UITabBarController *)self.window.rootViewController;
     UINavigationController *nc1 = [[tbc viewControllers] objectAtIndex:1];

@@ -24,15 +24,12 @@ static DropboxBackup *singletonInstance = nil;
 }
 
 -(void)startSessionThenDoThisWhenReady:(void(^)())finishingLoadingBlock{
-    NSString* appKey = @"70m5g2c6cyr0pfw";
-	NSString* appSecret = @"rnpfck1mkyqbi4p";
-	NSString *root = kDBRootDropbox; //kDBRootAppFolder or kDBRootDropbox
-	NSString* errorMsg = nil;
-	if ([appKey rangeOfCharacterFromSet:[[NSCharacterSet alphanumericCharacterSet] invertedSet]].location != NSNotFound) {
+    NSString* errorMsg = nil;
+	if ([self.appKey rangeOfCharacterFromSet:[[NSCharacterSet alphanumericCharacterSet] invertedSet]].location != NSNotFound) {
 		errorMsg = @"Make sure you set the app key correctly in AppDelegate.m";
-	} else if ([appSecret rangeOfCharacterFromSet:[[NSCharacterSet alphanumericCharacterSet] invertedSet]].location != NSNotFound) {
+	} else if ([self.appSecret rangeOfCharacterFromSet:[[NSCharacterSet alphanumericCharacterSet] invertedSet]].location != NSNotFound) {
 		errorMsg = @"Make sure you set the app secret correctly in AppDelegate.m";
-	} else if ([root length] == 0) {
+	} else if ([self.root length] == 0) {
 		errorMsg = @"Set your root to use either App Folder of full Dropbox";
 	} else {
 		NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"Info" ofType:@"plist"];
@@ -45,9 +42,9 @@ static DropboxBackup *singletonInstance = nil;
 			errorMsg = @"Set your URL scheme correctly in Info.plist (db-APP_KEY)";
 		}
 	}
-	DBSession* session = [[DBSession alloc] initWithAppKey:appKey
-                                                 appSecret:appSecret
-                                                      root:root];
+	DBSession* session = [[DBSession alloc] initWithAppKey:self.appKey
+                                                 appSecret:self.appSecret
+                                                      root:self.root];
 	[DBSession setSharedSession:session];
 	finishingLoadingBlock();
 }
@@ -87,17 +84,13 @@ static DropboxBackup *singletonInstance = nil;
     return localDB;
 }
 
--(NSString *)dropboxDBFilePathName{
-    return @"/tastingnotesappbackup/paddb.sql";
-}
-
 -(void)restoreDatabaseAndDoThisWhileWorking:(void (^)(float progress))downloadProgressBlock
                          thenDoThisWhenDone:(void (^)())fileDownloadedCompletionBlock{
     _downloadProgressBlock = downloadProgressBlock;
     _fileDownloadedCompletionBlock = fileDownloadedCompletionBlock;
     self.restClient = [[DBRestClient alloc] initWithSession:[DBSession sharedSession]];
     self.restClient.delegate = self;
-    [self.restClient loadFile:[self dropboxDBFilePathName]
+    [self.restClient loadFile:self.dropboxDBFilePathName
                      intoPath:[self localDBFilePathName]];
     [[Analytics sharedAnalytics]thisUserActionOccured:@"Database Restored"
                                       forThisCategory:@"Utilities"
@@ -111,7 +104,7 @@ static DropboxBackup *singletonInstance = nil;
     
     self.restClient = [[DBRestClient alloc] initWithSession:[DBSession sharedSession]];
     self.restClient.delegate = self;
-    [self.restClient loadMetadata:[self dropboxDBFilePathName]];
+    [self.restClient loadMetadata:self.dropboxDBFilePathName];
     
     [[Analytics sharedAnalytics]thisUserActionOccured:@"Database Backed Up"
                                       forThisCategory:@"Utilities"
@@ -177,9 +170,9 @@ static int outstandingRequests;
     self.databaseMetadata = metadata;
     
     [self.restClient uploadFile:@"/paddb.sql"
-                         toPath:@"/tastingnotesappbackup"
+                         toPath:self.dropboxFolderPathName
                   withParentRev:self.databaseMetadata.rev
-                       fromPath:[self localDBFilePathName]];
+                       fromPath:self.localDBFilePathName];
 }
 
 -(void)restClient:(DBRestClient*)client loadMetadataFailedWithError:(NSError*)error{

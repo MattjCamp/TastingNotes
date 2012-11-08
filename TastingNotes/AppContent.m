@@ -44,13 +44,9 @@ static AppContent *sharedObject = nil;
 
 -(void)setUpInititalNotebook{
     if(!self.databaseIsInitialized){
-        if(self.noteBookType){
-            [self.notebooks addNewNotebookWithThisType:[self noteBookType]];
-            self.databaseIsInitialized = YES;
-        }
-        else{
-            NSLog(@"We need to specify a notebook type for this app");
-        }
+        NSLog(@"%i", self.noteBookType);
+        [self.notebooks addNewNotebookWithThisType:self.noteBookType];
+        self.databaseIsInitialized = YES;
     }
     else{
         //upgrade procedure
