@@ -1888,7 +1888,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="Date" rowHeight="72" id="0K9-ju-svI" customClass="DateEditorCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="Date" rowHeight="72" id="0K9-ju-svI" customClass="DateEditorCell">
                                         <rect key="frame" x="0.0" y="22" width="320" height="72"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -2500,6 +2500,7 @@
             <relationships>
                 <relationship kind="action" name="addButtonAction:"/>
                 <relationship kind="action" name="doneButtonAction:"/>
+                <relationship kind="action" name="editButtonAction:"/>
                 <relationship kind="action" name="socialButtonAction:"/>
                 <relationship kind="outlet" name="addButton" candidateClass="UIBarButtonItem"/>
                 <relationship kind="outlet" name="doneButton" candidateClass="UIBarButtonItem"/>

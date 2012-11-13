@@ -87,10 +87,6 @@ Note *_note;
     return nil;
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    [self.tv scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionTop animated:YES];
-}
-
 -(void)viewDidLoad{
     [super viewDidLoad];
     [[self.tapToAddButton layer] setCornerRadius:8.0f];
@@ -185,6 +181,31 @@ Note *_note;
             ContentTableViewCell *customCell =(ContentTableViewCell *) [self.tv cellForRowAtIndexPath:indexPath];
             [customCell setNeedsDisplay];
         }];
+    }
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    Section *s = [self.note.notebook.listOfSections objectAtIndex:indexPath.section];
+    Control *control = [s.listOfControls objectAtIndex:indexPath.row];
+    if([control.type isEqualToString:@"Date"]){
+        [tableView scrollToRowAtIndexPath:indexPath
+                         atScrollPosition:UITableViewScrollPositionTop
+                                 animated:YES];
+        CGRect frame = CGRectMake(0, self.view.frame.size.height, self.view.frame.size.width, 215);
+        UIDatePicker *typePicker = [[UIDatePicker alloc] initWithFrame:frame];
+        typePicker.datePickerMode = UIDatePickerModeDate;
+        Content *content = [self.note contentInThisControl:control];
+        NSDate *date =[[NSDate alloc] initWithTimeIntervalSinceReferenceDate:[content.numeric doubleValue]];
+        [typePicker setDate:date animated:YES];
+        UITableViewCell *cell = [self.tv cellForRowAtIndexPath:indexPath];
+        [typePicker addTarget:cell
+                       action:@selector(updateDateContent:)
+             forControlEvents:UIControlEventValueChanged];
+        
+        [self.view addSubview:typePicker];
+        [UIView beginAnimations:@"slideIn" context:nil];
+        [typePicker setCenter:CGPointMake(typePicker.frame.size.width/2, self.view.frame.size.height - typePicker.frame.size.height/2)];
+        [UIView commitAnimations];
     }
 }
 

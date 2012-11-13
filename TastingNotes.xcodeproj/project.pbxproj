@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9101099A164C44070042D253 /* dropbox_icon_35.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43F16418C45003EC643 /* dropbox_icon_35.png */; };
+		910271051652A59C00663B38 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 910271091652A59C00663B38 /* Localizable.strings */; };
+		910271061652A59C00663B38 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 910271091652A59C00663B38 /* Localizable.strings */; };
+		910271071652A59C00663B38 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 910271091652A59C00663B38 /* Localizable.strings */; };
 		9130DF86164AC1B200FC1142 /* BeerBro-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9130DF85164AC1B200FC1142 /* BeerBro-Info.plist */; };
 		9130DF90164AC1C100FC1142 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9130DF89164AC1C100FC1142 /* Default-568h@2x.png */; };
 		9130DF91164AC1C100FC1142 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9130DF8A164AC1C100FC1142 /* Default.png */; };
@@ -256,6 +259,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		910271081652A59C00663B38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9130DF85164AC1B200FC1142 /* BeerBro-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BeerBro-Info.plist"; sourceTree = "<group>"; };
 		9130DF88164AC1C100FC1142 /* BeerBro-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeerBro-Prefix.pch"; sourceTree = "<group>"; };
 		9130DF89164AC1C100FC1142 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -615,6 +619,7 @@
 				91B3D2DA1641834F003EC643 /* InfoPlist.strings */,
 				91B3D2DD1641834F003EC643 /* main.m */,
 				91B3D2DF1641834F003EC643 /* TastingNotes-Prefix.pch */,
+				910271091652A59C00663B38 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -895,6 +900,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				English,
 			);
 			mainGroup = 91B3D2C21641834F003EC643;
 			productRefGroup = 91B3D2CE1641834F003EC643 /* Products */;
@@ -936,6 +942,7 @@
 				913A366E1649A40C00A7C284 /* winebottle4.jpeg in Resources */,
 				913FF4321649B8F300633BB0 /* Icon@2x.png in Resources */,
 				913FF4341649B8F600633BB0 /* Icon.png in Resources */,
+				910271061652A59C00663B38 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -965,6 +972,7 @@
 				9130DF92164AC1C100FC1142 /* Default@2x.png in Resources */,
 				9130DF93164AC1C100FC1142 /* InfoPlist.strings in Resources */,
 				9101099A164C44070042D253 /* dropbox_icon_35.png in Resources */,
+				910271071652A59C00663B38 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -991,6 +999,7 @@
 				91B3D45916418C45003EC643 /* paddb.sql in Resources */,
 				91B3D45A16418C45003EC643 /* tastingnotesnotestyledefault.css in Resources */,
 				91B3D45B16418C45003EC643 /* winebottle4.jpeg in Resources */,
+				910271051652A59C00663B38 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1173,6 +1182,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		910271091652A59C00663B38 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				910271081652A59C00663B38 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		9130DF8D164AC1C100FC1142 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

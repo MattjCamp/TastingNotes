@@ -1,0 +1,477 @@
+/*
+ Localizable.strings
+ TastingNotes
+ 
+ Created by Matthew Campbell on 11/14/08.
+ Copyright 2008 App Shop, LLC. All rights reserved.
+ */
+
+//Localization Required for all Pad Framework apps:
+//TableView Titles
+"ASPadListsTableView" = "Tasting Notes";
+"ListEditor" = "Edit List";
+"SectionEditor" = "Edit Section";
+"ControlEditor" = "Edit Control";
+"TastingNotesAppStoreLink" = "Created on the iPhone with ";
+"TastingNote" = "Tasting Note";
+"EnterAURL"= "<enter a URL>";
+"ImageLabel" = "Picture";
+
+//Control Labels
+"EnterCurrency" = "<Enter Currency>";
+"EnterDescription" = "<Enter Description>";
+"EnterName" = "<Enter Name>";
+"EnterNumber" = "<Enter Number>";
+"EnterText" = "<Enter Text>";
+"EnterListName" = "<Enter List Name>";
+"EnterSectionName" = "<Enter Section Name>";
+"EnterControlTitle" = "<Enter Control Title>";
+"AddNewGift" = "Add new tasting note";
+"AddNew" = "Add new";
+"Edit" = "Edit";
+"Save" = "Save";
+"AddNewList" = "Add new list";
+"AddNewNote" = "Add new tasting note";
+"AddNewSection" = "Add new section";
+"AddEditSections" = "Add/Edit sections";
+"AddNewControl" = "Add new control";
+"AddEditControls" = "Add/Edit controls";
+"EditSectionName" = "Edit Section Name";
+"EditListName" = "Edit List Name";
+"EditControlName" = "Edit Control Name";
+"Browse" = "Browse Lists";
+"Search" = "Search Lists";
+"SelectLists" = "Select Lists to Search";
+"EnterSearch" = "<Enter text to search for>";
+"SearchControlTitle" = "Search Text";
+"BadgeSelectCellImage" = "Image appears in list";
+"BadgeSelectCell" = "Appears in list (%i)";
+"AllowsMultipleSelections" = "Allows more than one selection";
+"AddValuesToList" = "Add values to list";
+"CreateFromTemplate" = "Pick new list from template";
+"SearchResults" = "Search Results";
+
+//Help Messages
+"AddTagValuesMessage" = "To add values to this screen touch the edit button.";
+"AddNoteMessage" = "To add tasting notes to this list, press the edit button.";
+"AddListMessage" = "Touch the edit button to add a list to tasting notes.";
+
+//Control Types
+"SmallText" = "Small Text";
+"MultiText" = "Multi-line Text";
+"Picture" = "Picture";
+"Numeric" = "Numeric";
+"Currency" = "Currency";
+"5StarRating" = "5 Star Rating";
+"List" = "List";
+"PointScale100" = "1-100 Point Scale";
+"WebView" = "Web Site";
+"AddressView" = "Address/Map View";
+
+//Default Names
+"FirstSection" = "Overview";
+"Name" = "Name";
+
+//App Specific Section
+//App Content Specific
+"Price" = "Price";
+"Vintage" = "Vintage";
+"WebSite" = "On The Web";
+"Rating100" = "Rating";
+"Charactoristics" = "Characteristics";
+"Color" = "Color";
+"Comments" = "Comments";
+"DateTasted" = "Date Tasted";
+"RatingLabelForToString" = "Rating";
+
+//Wine Notes:
+"WineList" = "Wine Notes";
+"WineType" = "Wine Type";
+"WineBottleLabel" = "Wine Bottle Label";
+"WineName" = "Wine Name";
+
+//Wine Types:
+"WT1" = "Red";
+"WT2" = "White";
+"WT3" = "Sparkling";
+"WT4" = "Dessert";
+"WT5" = "Rose";
+"WT6" = "Fruit";
+"WT7" = "Ice";
+"Varietals" = "Varietals";
+"DetailedDescriptors" = "Details";
+"WV1" = "Nebbiolo";
+"WV2" = "Chardonnay";
+"WV3" = "Cabernet Sauvignon";
+"WV4" = "Riesling";
+"WV5" = "Malbec";
+"WV6" = "Merlot";
+"WV7" = "Pinot Blanc";
+"WV8" = "Pinot Gris";
+"WV9" = "Pinot Noir";
+"WV10" = "Sangiovese";
+"WV11" = "Sauvignon Blanc";
+"WV12" = "Zinfandel";
+"WV13" = "Shiraz";
+"Winery" = "Winery";
+"WW1" = "Robert Mondavi";
+"WW2" = "Baron Philippe de Rothschild";
+"Region" = "Region";
+"WR1" = "France";
+"WR2" = "California";
+"WR3" = "Australia";
+"WR4" = "Germany";
+"WR5" = "Spain";
+"WR6" = "Italy";
+"WR7" = "Bordeaux";
+"WR8" = "The Loire Valley";
+"WR9" = "Burgundy";
+"WR10" = "Champagne";
+"WR11" = "Alsace";
+"WR12" = "The Rhone";
+"WR13" = "Sonoma";
+"WR14" = "Napa";
+"WR15" = "Willamette Valley";
+"WR16" = "Mendoza Province";
+"WR17" = "Mittelrhein";
+"WR18" = "Chianti";
+"WR19" = "Piedmont";
+"WR20" = "Chili";
+"WR21" = "Argentina";
+"Pairing" = "Pairing";
+"WP1" = "Chocolate";
+"WP2" = "Seafood";
+"WP3" = "Poultry";
+"WP4" = "Steak";
+"WP5" = "Sushi";
+
+//Wine Cellar
+"WineCellarList" = "Wine Cellar";
+
+//Beer List
+"BeerName" = "Beer Name";
+"BeerList" = "Beer List";
+"BeerStyle" = "Style";
+"BeerCountry" = "Country";
+"BS1" = "Amber Ale";
+"BS2" = "Amber Ale - Imperial Red";
+"BS3" = "American Strong Ale";
+"BS4" = "Abbey Dubbel";
+"BS5" = "Abbey Single";
+"BS6" = "Abbey Tripel";
+"BS7" = "Abbey Quadrupel/12";
+"BS8" = "Altbier";
+"BS9" = "Barelywine - American";
+"BS10" = "Barelywine - English";
+"BS11" = "Barelywine - Wheatwine";
+"BS12" = "Blonde Ale";
+"BS13" = "Brown Ale";
+"BS14" = "Belgian Ale";
+"BS15" = "Belgian Strong Ale";
+"BS16" = "Bière de Champagne";
+"BS17" = "Bière de Garde";
+"BS18" = "Bitter";
+"BS19" = "Bitter - Premium/ESB";
+"BS20" = "Berliner Weisse";
+"BS21" = "Bock";
+"BS22" = "California Common/Steam";
+"BS23" = "Cider";
+"BS24" = "Cider - Iced";
+"BS25" = "Cider - Fruit";
+"BS26" = "Cream Ale";
+"BS27" = "Dunkelweizen";
+"BS28" = "Dunkel";
+"BS29" = "Doppelbock";
+"BS30" = "Dortmunder / Export Lager";
+"BS31" = "English Strong Ale";
+"BS32" = "Eisbock";
+"BS33" = "Fruit Beer";
+"BS34" = "Gose";
+"BS35" = "Helles";
+"BS36" = "Hefeweizen";
+"BS37" = "IPA";
+"BS38" = "IPA - Double/Imperial";
+"BS39" = "IPA - Belgian";
+"BS40" = "Irish Red";
+"BS41" = "Kristalweizen";
+"BS42" = "Kölsch";
+"BS43" = "Kvass";
+"BS44" = "Keller Bier";
+"BS45" = "Lambic - Faro";
+"BS46" = "Lambic - Gueuze";
+"BS47" = "Lambic - Unblended";
+"BS48" = "Lambic - Kriek";
+"BS49" = "Lambic - Framboise";
+"BS50" = "Lambic - Druiven";
+"BS51" = "Lambic - Other Fruit";
+"BS52" = "Landbier";
+"BS53" = "Lager - European Strong";
+"BS54" = "Lager - Premium";
+"BS55" = "Lager - Dark";
+"BS56" = "Lager - Pale";
+"BS57" = "Low Alcohol";
+"BS58" = "Mead";
+"BS59" = "Mead - Braggot";
+"BS60" = "Mead - Cyser";
+"BS61" = "Mead - Melomel";
+"BS62" = "Mead - Metheglin";
+"BS63" = "Mild Ale";
+"BS64" = "Maibock / Helles Bock";
+"BS65" = "Märzen / Oktoberfest";
+"BS66" = "Malt Liquor";
+"BS67" = "Old Ale";
+"BS68" = "Pale Ale - American";
+"BS69" = "Pale Ale - English";
+"BS70" = "Porter";
+"BS71" = "Porter - Baltic";
+"BS72" = "Porter - Imperial";
+"BS73" = "Perry";
+"BS74" = "Pilsener - Classic German";
+"BS75" = "Pilsener - Bohemian";
+"BS76" = "Pilsener - Other";
+"BS77" = "Pilsener - Imperial";
+"BS78" = "Roggenbier";
+"BS79" = "Rauchbier";
+"BS80" = "Stout";
+"BS81" = "Stout - Sweet";
+"BS82" = "Stout - Milk";
+"BS83" = "Stout - Oatmeal";
+"BS84" = "Stout - Foreign/Export";
+"BS85" = "Stout - Dry";
+"BS86" = "Stout - Imperial";
+"BS87" = "Sour";
+"BS88" = "Sour - Flanders Oud Bruin";
+"BS89" = "Sour - Flanders Red Ale";
+"BS90" = "Saison";
+"BS91" = "Sahti";
+"BS92" = "Smoked Beer";
+"BS93" = "Specialty Grain";
+"BS94" = "Schwarzbier";
+"BS95" = "Spiced/Herb/Vegetable Beer";
+"BS96" = "Spiced/Herb/Vegetable Beer- Pumpkin Beer";
+"BS97" = "Scotch Ale";
+"BS98" = "Scottish Ale";
+"BS99" = "Traditional Ale";
+"BS100" = "Vienna Lager";
+"BS101" = "Wheat Ale";
+"BS102" = "Wild Ale (non-sour)";
+"BS103" = "Witbier";
+"BS104" = "Winter Beer";
+"BS105" = "Weizenbock";
+"BS106" = "Zwickel Bier";
+"BeerBottleLabel" = "Beer Bottle Label";
+"Brewery" = "Brewery";
+"Carbonation" = "Carbonation";
+
+"BB1" = "Anchor Brewing";
+"BB2" = "Guinness";
+"BB3" = "Lowenbrau";
+"BB4" = "Victory Brewing Co";
+"BB5" = "Sierra Nevada";
+"BB6" = "Rogue Brewing Company";
+"BB7" = "New Glarus Brewing";
+"BB8" = "Stone Brewing Company";
+"BB9" = "Boston Beer Company";
+"BB10" = "Bar Harbor Brewing Company";
+"BB11" = "Anderson Valley Brewing";
+"BB12" = "Great Divide Brewing Company";
+"BB13" = "Sweetwater Brewing";
+"BB14" = "Spreacher Brewing Compan";
+"BB15" = "August Schell Brewing";
+"BB16" = "Flying Fish";
+"BR1" = "Australia";
+"BR2" = "Austria";
+"BR3" = "Belgium";
+"BR4" = "Canada";
+"BR5" = "Denmark";
+"BR6" = "Germany";
+"BR7" = "Ireland";
+"BR8" = "Japan";
+"BR9" = "Mexico";
+"BR10" = "Jamaica";
+"BR11" = "United Kingdom";
+"BR12" = "United States";
+
+//Whiskey
+"WhiskeyList" = "Whiskies";
+"WhiskeyName" = "Whiskey Name";
+"WhiskeyType" = "Type";
+"WhiskeyAgeInYears" = "Age in Years";
+"Proof" = "Proof";
+"WhiskeyBottleLabel" = "Whiskey Bottle Label";
+"Distillery" = "Distillery";
+"Area" = "Area";
+"Nose" = "Nose";
+"Body" = "Body";
+"Palate" = "Palate";
+"Finish" = "Finish";
+
+"WhT1" = "Single Malt";
+"WhT2" = "Vatted Malt";
+"WhT3" = "Blended Grain";
+"WhT4" = "Blended Scotch";
+"WhT5" = "Single Grain";
+
+"WhA1" = "Lowland";
+"WhA2" = "Speyside";
+"WhA3" = "Highland";
+"WhA4" = "Campbeltown";
+"WhA5" = "Islay";
+
+"WhD1" = "Auchentoshan";
+"WhD2" = "Bladnoch";
+"WhD3" = "Glenkinchie";
+"WhD4" = "Aberlour";
+"WhD5" = "Balvenie";
+"WhD6" = "Glenfiddich";
+"WhD7" = "Speyburn";
+"WhD8" = "Glenlivet";
+"WhD9" = "The Macallan";
+"WhD10" = "Dalmore";
+"WhD11" = "Dalwhinnie";
+"WhD12" = "Balblair";
+"WhD13" = "Old Pulteney";
+"WhD14" = "Glenmorangie";
+"WhD15" = "Oban";
+"WhD16" = "Aberfeldy";
+"WhD17" = "Arran";
+"WhD18" = "Isle of Jura";
+"WhD19" = "Tobermory";
+"WhD20" = "Highland Park and Scapa";
+"WhD21" = "Talisker";
+"WhD22" = "Glengyle";
+"WhD23" = "Glen Scotia";
+"WhD24" = "Springbank";
+"WhD25" = "Ardbeg";
+"WhD26" = "Bowmore";
+"WhD27" = "Bruichladdich";
+"WhD28" = "Bunnahabhain";
+"WhD29" = "Caol Ila";
+"WhD30" = "Lagavulin";
+"WhD31" = "Laphroaig";
+"WhD32" = "Kilchoman";
+
+//Tea
+"TeaList" = "Tea Notes";
+"TeaType" = "Tea Type";
+"DryLeafAppearance" = "Dry Leaf Appearance";
+"WetLeafAppearance" = "Wet Leaf Appearance";
+"Liquor" = "Liquor Color";
+"TT1" = "Black";
+"TT2" = "Green";
+"TT3" = "White";
+"TT4" = "Oolong";
+"TT5" = "Pu-erh";
+"TT6" = "Herbal";
+"TT7" = "Yerba mate";
+"TT8" = "Rooibos";
+
+//Cigars:
+"CigarList" = "Cigars";
+"CigarType" = "Cigar Type";
+"RingGauge" = "Ring Gauge";
+"Length" = "Length";
+"CgT1" = "Cuban";
+"CgT2" = "Macanudo";
+"CgT3" = "Cohiba";
+"CgT4" = "Padron";
+"CgT5" = "Partagas";
+"CgT6" = "Ashton";
+"CgT7" = "Acid";
+"CgT8" = "Montecristo";
+"CgT9" = "Arturo Fuente";
+"Look" = "Look";
+"LightAndBurn" = "Light and burn";
+"Draw" = "Draw";
+"Smoke" = "Smoke";
+"Flavor";
+
+//Coffee
+"CoffeeList" = "Coffee List";
+"CoffeeVariety" = "Coffee Variety";
+"CoffeeDrinkType" = "Drink Type";
+"CfV1" = "Colombian";
+"CfV2" = "Colombian Milds";
+"CfV3" = "Costa Rican Tarrazu";
+"CfV4" = "Ethiopian Harrar";
+"CfV5" = "Ethiopian Sidamo";
+"CfV6" = "Ethiopian Yirgacheffe";
+"CfV7" = "Guatemala Huehuetenango";
+"CfV8" = "Hawaiian Kona";
+"CfV9" = "Jamaican Blue Mountain";
+"CfV10" = "Java";
+"CfV11" = "Kenyan";
+"CfV12" = "Mexican";
+"CfV13" = "Panama - Geisha";
+"CfV14" = "Santos";
+"CfV15" = "Sumatra Mandheling";
+"CfV16" = "Sulawesi Toraja Kalossi";
+"CfV17" = "Tanzania Peaberry";
+"CfV18" = "Uganda Bugishu";
+"CfV19" = "Robusta Kopi Luwak";
+"CfV20" = "Robusta Kape Alamid";
+
+"CfD1" = "Americano";
+"CfD2" = "Brewed";
+"CfD3" = "Café Frappé";
+"CfD4" = "Café Freddo Shakerato";
+"CfD5" = "Café Latte";
+"CfD6" = "Café Mocha";
+"CfD7" = "Cappuccino";
+"CfD8" = "Cappuccino con Panna";
+"CfD9" = "Demi-tasse";
+"CfD10" = "Doppio Espresso";
+"CfD11" = "Espresso";
+"CfD12" = "Espresso Corretto";
+"CfD13" = "Espresso Macchiato";
+"CfD14" = "Espresso con Panna";
+"CfD15" = "Espresso Romano";
+"CfD16" = "Erlängerter";
+"CfD17" = "Flavoured Latte";
+"CfD18" = "Brauner";
+"CfD19" = "Kapuziner";
+"CfD20" = "Latte macchiato";
+"CfD21" = "Latteccino";
+"CfD22" = "Café Crème";
+"CfD23" = "Ristretto";
+"CfD24" = "Schlagobers";
+"CfD25" = "Schwarzer";
+"CfD26" = "Wiener melange";
+
+//Wish List:
+"WishList" = "Wish List";
+"ItemType" = "Item Type";
+"WL1" = "Wine";
+"WL2" = "Beer";
+"WL3" = "Liquor";
+"WL4" = "Cigar";
+"WL5" = "Tea";
+"WL6" = "Coffee";
+"WL7" = "Book";
+
+//Beer Judgement List:
+"BeerJudgementList" = "Beer Judgement Events";
+"BeerJudgementEvent" = "Event";
+"BeerJudgementDate" = "Event Date";
+"BeerJudgementBouquetAroma" = "Rate Bouquet/Aroma";
+"BeerJudgementAppearance" = "Rate Appearance";
+"BeerJudgementFlavor" = "Rate Flavor";
+"BeerJudgementBody" = "Rate Body";
+"BeerJudgementDrinkabilityOverallImpression" = "Overall Impression";
+
+//Wine Cellar List
+"WineCellarList" = "Wine Cellar";
+"WineCellarLocation" = "Location";
+"WineCellarStoreDate" = "Date Stored";
+"WineCellarReadyToDrinkDate" = "Date Ready to Drink";
+
+//App Control Specific
+//Email
+"EmailSubject" = "Tasting Note";
+"AppStoreDeepLink" = "http://itunes.com/apps/TastingNotes";
+"AppName" = "Tasting Notes";
+"MFMailComposeResultCancelled" = "Email cancelled";
+"MFMailComposeResultSaved" = "Email saved";
+"MFMailComposeResultSent" = "Email sent";
+"MFMailComposeResultFailed" = "Email failed (not sent or saved)";
+"MFMailComposeDefault" = "There was an error sending the email";

@@ -116,7 +116,7 @@ Note *_note;
     [super viewDidUnload];
 }
 
-- (IBAction)socialButtonAction:(id)sender {
+-(IBAction)socialButtonAction:(id)sender {
     UIActivityViewController *avc;
     if(self.note.thumbnail)
         avc = [[UIActivityViewController alloc] initWithActivityItems:@[self.note.thumbnail, self.note.socialString] applicationActivities:nil];
@@ -126,7 +126,7 @@ Note *_note;
     [self presentViewController:avc animated:YES completion:nil];
 }
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if ([[segue identifier] isEqualToString:@"ToImageEditor"]) {
         NSIndexPath *indexPath = [self.tv indexPathForSelectedRow];
         Section *s = [self.note.notebook.listOfSections objectAtIndex:indexPath.section];
@@ -156,7 +156,7 @@ Note *_note;
     }
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     Section *s = [self.note.notebook.listOfSections objectAtIndex:indexPath.section];
     Control *control = [s.listOfControls objectAtIndex:indexPath.row];
     if([control.type isEqualToString:@"Date"]){
