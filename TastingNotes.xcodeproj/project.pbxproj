@@ -11,10 +11,12 @@
 		910271051652A59C00663B38 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 910271091652A59C00663B38 /* Localizable.strings */; };
 		910271061652A59C00663B38 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 910271091652A59C00663B38 /* Localizable.strings */; };
 		910271071652A59C00663B38 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 910271091652A59C00663B38 /* Localizable.strings */; };
+		9102710F1652C47A00663B38 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9102710E1652C47A00663B38 /* Default@2x.png */; };
+		910271151652CA9300663B38 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 910271141652CA9300663B38 /* Default-568h@2x.png */; };
+		910271161652CACB00663B38 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9130DF89164AC1C100FC1142 /* Default-568h@2x.png */; };
+		910271171652CAE300663B38 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 910271121652C9C200663B38 /* Default.png */; };
 		9130DF86164AC1B200FC1142 /* BeerBro-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9130DF85164AC1B200FC1142 /* BeerBro-Info.plist */; };
-		9130DF90164AC1C100FC1142 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9130DF89164AC1C100FC1142 /* Default-568h@2x.png */; };
 		9130DF91164AC1C100FC1142 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9130DF8A164AC1C100FC1142 /* Default.png */; };
-		9130DF92164AC1C100FC1142 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9130DF8B164AC1C100FC1142 /* Default@2x.png */; };
 		9130DF93164AC1C100FC1142 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9130DF8D164AC1C100FC1142 /* InfoPlist.strings */; };
 		9130DF94164AC1C100FC1142 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9130DF8F164AC1C100FC1142 /* main.m */; };
 		913A360716499EEA00A7C284 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D2D11641834F003EC643 /* UIKit.framework */; };
@@ -260,6 +262,11 @@
 
 /* Begin PBXFileReference section */
 		910271081652A59C00663B38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9102710B1652BEFE00663B38 /* Description */ = {isa = PBXFileReference; lastKnownFileType = text; path = Description; sourceTree = "<group>"; };
+		9102710E1652C47A00663B38 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		910271111652C56700663B38 /* Description */ = {isa = PBXFileReference; lastKnownFileType = text; path = Description; sourceTree = "<group>"; };
+		910271121652C9C200663B38 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		910271141652CA9300663B38 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		9130DF85164AC1B200FC1142 /* BeerBro-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BeerBro-Info.plist"; sourceTree = "<group>"; };
 		9130DF88164AC1C100FC1142 /* BeerBro-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeerBro-Prefix.pch"; sourceTree = "<group>"; };
 		9130DF89164AC1C100FC1142 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -474,6 +481,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9102710A1652AEE000663B38 /* External Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9102710B1652BEFE00663B38 /* Description */,
+			);
+			name = "External Assets";
+			sourceTree = "<group>";
+		};
+		910271101652C52C00663B38 /* External Assets */ = {
+			isa = PBXGroup;
+			children = (
+				910271111652C56700663B38 /* Description */,
+			);
+			name = "External Assets";
+			sourceTree = "<group>";
+		};
 		9130DF8C164AC1C100FC1142 /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
@@ -521,6 +544,7 @@
 		913FF449164ABD5F00633BB0 /* BeerBro */ = {
 			isa = PBXGroup;
 			children = (
+				910271101652C52C00663B38 /* External Assets */,
 				913FF4B3164ABFA300633BB0 /* AppDelegate.h */,
 				913FF4B4164ABFA300633BB0 /* AppDelegate.m */,
 				913FF44A164ABD5F00633BB0 /* Supporting Files */,
@@ -531,6 +555,9 @@
 		913FF44A164ABD5F00633BB0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				910271121652C9C200663B38 /* Default.png */,
+				910271141652CA9300663B38 /* Default-568h@2x.png */,
+				9102710E1652C47A00663B38 /* Default@2x.png */,
 				9130DF88164AC1C100FC1142 /* BeerBro-Prefix.pch */,
 				9130DF89164AC1C100FC1142 /* Default-568h@2x.png */,
 				9130DF8A164AC1C100FC1142 /* Default.png */,
@@ -585,6 +612,7 @@
 		91B3D2D71641834F003EC643 /* TastingNotes */ = {
 			isa = PBXGroup;
 			children = (
+				9102710A1652AEE000663B38 /* External Assets */,
 				91B3D42E164189A6003EC643 /* TNAppDelegate.h */,
 				91B3D42F164189A6003EC643 /* TNAppDelegate.m */,
 				91B3D39516418710003EC643 /* Model */,
@@ -967,12 +995,14 @@
 				913FF4A4164ABE8D00633BB0 /* Icon@2x.png in Resources */,
 				913FF4A5164ABE8F00633BB0 /* Icon.png in Resources */,
 				9130DF86164AC1B200FC1142 /* BeerBro-Info.plist in Resources */,
-				9130DF90164AC1C100FC1142 /* Default-568h@2x.png in Resources */,
 				9130DF91164AC1C100FC1142 /* Default.png in Resources */,
-				9130DF92164AC1C100FC1142 /* Default@2x.png in Resources */,
 				9130DF93164AC1C100FC1142 /* InfoPlist.strings in Resources */,
 				9101099A164C44070042D253 /* dropbox_icon_35.png in Resources */,
 				910271071652A59C00663B38 /* Localizable.strings in Resources */,
+				9102710F1652C47A00663B38 /* Default@2x.png in Resources */,
+				910271151652CA9300663B38 /* Default-568h@2x.png in Resources */,
+				910271161652CACB00663B38 /* Default-568h@2x.png in Resources */,
+				910271171652CAE300663B38 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
