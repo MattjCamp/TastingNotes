@@ -10,22 +10,39 @@
 
 @implementation DateEditorCell
 
--(void)drawRect:(CGRect)rect{
-    [super drawRect:rect];
+-(void)displayDate{
+    NSDateFormatter *df = [[NSDateFormatter alloc] init];
+    df.dateStyle = NSDateFormatterLongStyle;
+    NSDate *date;
     
     if([self.content.numeric intValue] == 0){
-		self.datePicker.date = [NSDate date];
-        self.content.numeric = [NSNumber numberWithFloat:[self.datePicker.date timeIntervalSinceReferenceDate]];
+        date = [NSDate date];
+        self.content.numeric = [NSNumber numberWithFloat:[date timeIntervalSinceReferenceDate]];
     }
-	else{
-		NSDate *date =[[NSDate alloc] initWithTimeIntervalSinceReferenceDate:[self.content.numeric doubleValue]];
-		self.datePicker.date = date;
-	}
+	else
+		date =[[NSDate alloc] initWithTimeIntervalSinceReferenceDate:[self.content.numeric doubleValue]];
+    
+    self.dataDisplay.text = [df stringFromDate:date];
     self.controlLabel.text = self.content.control.title;
 }
 
-- (IBAction)updateDateContent:(id)sender{
-    self.content.numeric = [NSNumber numberWithFloat:[self.datePicker.date timeIntervalSinceReferenceDate]];
+-(void)drawRect:(CGRect)rect{
+    [super drawRect:rect];
+    
+    [[self.dataDisplay layer] setCornerRadius:8.0f];
+    [[self.dataDisplay layer] setMasksToBounds:YES];
+    
+    [self displayDate];
+}
+
+- (void)updateDateContent:(id)sender{
+    UIDatePicker *dp = (UIDatePicker *)sender;
+    self.content.numeric = [NSNumber numberWithFloat:[dp.date timeIntervalSinceReferenceDate]];
+    [self displayDate];
+    
+    [UIView beginAnimations:@"slideOut" context:nil];
+    [dp setCenter:CGPointMake(dp.center.x, dp.center.y + dp.frame.size.height)];
+    [UIView commitAnimations];
 }
 
 @end

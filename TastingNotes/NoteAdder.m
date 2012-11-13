@@ -56,7 +56,7 @@ Note *_note;
         if([control.type isEqualToString:@"Picture"])
             return 144;
         if([control.type isEqualToString:@"Date"])
-            return 247;
+            return 88;
         
         return 65;
     }
