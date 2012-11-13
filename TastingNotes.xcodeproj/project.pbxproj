@@ -1360,6 +1360,7 @@
 		913FF45D164ABD5F00633BB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Matthew Campbell";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1373,6 +1374,7 @@
 					"\"$(SRCROOT)/../Frameworks\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "FCD38364-FAC7-4245-9AA3-3DA7DCACD653";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
