@@ -29,7 +29,7 @@
         if(self.note.titleText)
             self.titleLabel.attributedText = [[NSMutableAttributedString alloc] initWithString:self.note.titleText
                                                                                     attributes:titleAttributes];
-        if(self.note.titleText)
+        if(self.note.detailText)
             self.detailLabel.attributedText = [[NSMutableAttributedString alloc] initWithString:self.note.detailText
                                                                                      attributes:detailAttributes];
         [UIView animateWithDuration:1.00 animations:^{
