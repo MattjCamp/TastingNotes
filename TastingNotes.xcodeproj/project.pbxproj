@@ -267,6 +267,16 @@
 		910271111652C56700663B38 /* Description */ = {isa = PBXFileReference; lastKnownFileType = text; path = Description; sourceTree = "<group>"; };
 		910271121652C9C200663B38 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
 		910271141652CA9300663B38 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		910271191652CC8100663B38 /* Screenshot 2012.11.13 13.09.51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2012.11.13 13.09.51.png"; sourceTree = "<group>"; };
+		9102711A1652CC8100663B38 /* Screenshot 2012.11.13 13.10.10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2012.11.13 13.10.10.png"; sourceTree = "<group>"; };
+		9102711B1652CC8100663B38 /* Screenshot 2012.11.13 13.10.30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2012.11.13 13.10.30.png"; sourceTree = "<group>"; };
+		9102711C1652CC8100663B38 /* Screenshot 2012.11.13 13.10.52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2012.11.13 13.10.52.png"; sourceTree = "<group>"; };
+		9102711D1652CC8100663B38 /* Screenshot 2012.11.13 13.11.11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2012.11.13 13.11.11.png"; sourceTree = "<group>"; };
+		9102711F1652CC8100663B38 /* Screenshot 2012.11.13 13.27.40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2012.11.13 13.27.40.png"; sourceTree = "<group>"; };
+		910271201652CC8100663B38 /* Screenshot 2012.11.13 13.29.49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2012.11.13 13.29.49.png"; sourceTree = "<group>"; };
+		910271211652CC8100663B38 /* Screenshot 2012.11.13 13.29.55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2012.11.13 13.29.55.png"; sourceTree = "<group>"; };
+		910271221652CC8100663B38 /* Screenshot 2012.11.13 13.30.47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2012.11.13 13.30.47.png"; sourceTree = "<group>"; };
+		910271231652CC8100663B38 /* Screenshot 2012.11.13 13.30.57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2012.11.13 13.30.57.png"; sourceTree = "<group>"; };
 		9130DF85164AC1B200FC1142 /* BeerBro-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BeerBro-Info.plist"; sourceTree = "<group>"; };
 		9130DF88164AC1C100FC1142 /* BeerBro-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeerBro-Prefix.pch"; sourceTree = "<group>"; };
 		9130DF89164AC1C100FC1142 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -492,9 +502,37 @@
 		910271101652C52C00663B38 /* External Assets */ = {
 			isa = PBXGroup;
 			children = (
+				910271181652CC8100663B38 /* high res screenshots */,
+				9102711E1652CC8100663B38 /* low res screenshots */,
 				910271111652C56700663B38 /* Description */,
 			);
 			name = "External Assets";
+			sourceTree = "<group>";
+		};
+		910271181652CC8100663B38 /* high res screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				910271191652CC8100663B38 /* Screenshot 2012.11.13 13.09.51.png */,
+				9102711A1652CC8100663B38 /* Screenshot 2012.11.13 13.10.10.png */,
+				9102711B1652CC8100663B38 /* Screenshot 2012.11.13 13.10.30.png */,
+				9102711C1652CC8100663B38 /* Screenshot 2012.11.13 13.10.52.png */,
+				9102711D1652CC8100663B38 /* Screenshot 2012.11.13 13.11.11.png */,
+			);
+			name = "high res screenshots";
+			path = high;
+			sourceTree = "<group>";
+		};
+		9102711E1652CC8100663B38 /* low res screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				9102711F1652CC8100663B38 /* Screenshot 2012.11.13 13.27.40.png */,
+				910271201652CC8100663B38 /* Screenshot 2012.11.13 13.29.49.png */,
+				910271211652CC8100663B38 /* Screenshot 2012.11.13 13.29.55.png */,
+				910271221652CC8100663B38 /* Screenshot 2012.11.13 13.30.47.png */,
+				910271231652CC8100663B38 /* Screenshot 2012.11.13 13.30.57.png */,
+			);
+			name = "low res screenshots";
+			path = low;
 			sourceTree = "<group>";
 		};
 		9130DF8C164AC1C100FC1142 /* en.lproj */ = {
