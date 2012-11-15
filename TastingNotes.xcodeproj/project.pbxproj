@@ -258,6 +258,15 @@
 		91B3D45916418C45003EC643 /* paddb.sql in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44716418C45003EC643 /* paddb.sql */; };
 		91B3D45A16418C45003EC643 /* tastingnotesnotestyledefault.css in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44816418C45003EC643 /* tastingnotesnotestyledefault.css */; };
 		91B3D45B16418C45003EC643 /* winebottle4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44916418C45003EC643 /* winebottle4.jpeg */; };
+		91F5053F16556B6400F24A2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A368A1649B20E00A7C284 /* UIKit.framework */; };
+		91F5054016556B6400F24A2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A368C1649B20E00A7C284 /* Foundation.framework */; };
+		91F5054116556B6400F24A2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A368E1649B20E00A7C284 /* CoreGraphics.framework */; };
+		91F5054716556B6400F24A2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91F5054516556B6400F24A2F /* InfoPlist.strings */; };
+		91F5054916556B6400F24A2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5054816556B6400F24A2F /* main.m */; };
+		91F5054D16556B6400F24A2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5054C16556B6400F24A2F /* AppDelegate.m */; };
+		91F5054F16556B6400F24A2F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F5054E16556B6400F24A2F /* Default.png */; };
+		91F5055116556B6400F24A2F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F5055016556B6400F24A2F /* Default@2x.png */; };
+		91F5055316556B6400F24A2F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F5055216556B6400F24A2F /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -434,6 +443,26 @@
 		91B3D44716418C45003EC643 /* paddb.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = paddb.sql; sourceTree = "<group>"; };
 		91B3D44816418C45003EC643 /* tastingnotesnotestyledefault.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = tastingnotesnotestyledefault.css; sourceTree = "<group>"; };
 		91B3D44916418C45003EC643 /* winebottle4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = winebottle4.jpeg; sourceTree = "<group>"; };
+		91F5053416556B4300F24A2F /* Beer_Bro_Icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beer_Bro_Icon_57.png; sourceTree = "<group>"; };
+		91F5053516556B4300F24A2F /* Beer_Bro_Icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beer_Bro_Icon_114.png; sourceTree = "<group>"; };
+		91F5053616556B4300F24A2F /* Beer_Bro_Icon_228.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beer_Bro_Icon_228.png; sourceTree = "<group>"; };
+		91F5053716556B4300F24A2F /* Beer_Bro_Icon_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beer_Bro_Icon_1024.png; sourceTree = "<group>"; };
+		91F5053816556B4300F24A2F /* Beer_Bro_Icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Beer_Bro_Icon.jpg; sourceTree = "<group>"; };
+		91F5053D16556B6400F24A2F /* CommanderData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommanderData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F5054416556B6400F24A2F /* CommanderData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CommanderData-Info.plist"; sourceTree = "<group>"; };
+		91F5054616556B6400F24A2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91F5054816556B6400F24A2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91F5054A16556B6400F24A2F /* CommanderData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommanderData-Prefix.pch"; sourceTree = "<group>"; };
+		91F5054B16556B6400F24A2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91F5054C16556B6400F24A2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91F5054E16556B6400F24A2F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		91F5055016556B6400F24A2F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		91F5055216556B6400F24A2F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		91F5055916556B9A00F24A2F /* cd-final small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cd-final small.png"; sourceTree = "<group>"; };
+		91F5055A16556B9A00F24A2F /* cd-final.eps */ = {isa = PBXFileReference; lastKnownFileType = text; path = "cd-final.eps"; sourceTree = "<group>"; };
+		91F5055B16556B9A00F24A2F /* cd-large icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cd-large icon.jpg"; sourceTree = "<group>"; };
+		91F5055C16556B9A00F24A2F /* cd-large icon2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cd-large icon2.jpg"; sourceTree = "<group>"; };
+		91F5055D16556B9A00F24A2F /* CD-small icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CD-small icon2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -488,6 +517,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		91F5053A16556B6400F24A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F5053F16556B6400F24A2F /* UIKit.framework in Frameworks */,
+				91F5054016556B6400F24A2F /* Foundation.framework in Frameworks */,
+				91F5054116556B6400F24A2F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -502,6 +541,7 @@
 		910271101652C52C00663B38 /* External Assets */ = {
 			isa = PBXGroup;
 			children = (
+				91F5053216556B2700F24A2F /* Icons */,
 				910271181652CC8100663B38 /* high res screenshots */,
 				9102711E1652CC8100663B38 /* low res screenshots */,
 				910271111652C56700663B38 /* Description */,
@@ -613,6 +653,7 @@
 				91B3D2D71641834F003EC643 /* TastingNotes */,
 				913A360A16499EEA00A7C284 /* TastingNotesHD */,
 				913FF449164ABD5F00633BB0 /* BeerBro */,
+				91F5054216556B6400F24A2F /* CommanderData */,
 				913A36891649B20D00A7C284 /* Frameworks */,
 				91B3D2CE1641834F003EC643 /* Products */,
 			);
@@ -624,6 +665,7 @@
 				91B3D2CD1641834F003EC643 /* TastingNotes.app */,
 				913A360516499EEA00A7C284 /* TastingNotesHD.app */,
 				913FF444164ABD5F00633BB0 /* BeerBro.app */,
+				91F5053D16556B6400F24A2F /* CommanderData.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -897,6 +939,63 @@
 			name = List;
 			sourceTree = "<group>";
 		};
+		91F5053216556B2700F24A2F /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				91F5053416556B4300F24A2F /* Beer_Bro_Icon_57.png */,
+				91F5053516556B4300F24A2F /* Beer_Bro_Icon_114.png */,
+				91F5053616556B4300F24A2F /* Beer_Bro_Icon_228.png */,
+				91F5053716556B4300F24A2F /* Beer_Bro_Icon_1024.png */,
+				91F5053816556B4300F24A2F /* Beer_Bro_Icon.jpg */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		91F5054216556B6400F24A2F /* CommanderData */ = {
+			isa = PBXGroup;
+			children = (
+				91F5055716556B6D00F24A2F /* External Assets */,
+				91F5054B16556B6400F24A2F /* AppDelegate.h */,
+				91F5054C16556B6400F24A2F /* AppDelegate.m */,
+				91F5054316556B6400F24A2F /* Supporting Files */,
+			);
+			path = CommanderData;
+			sourceTree = "<group>";
+		};
+		91F5054316556B6400F24A2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91F5054416556B6400F24A2F /* CommanderData-Info.plist */,
+				91F5054516556B6400F24A2F /* InfoPlist.strings */,
+				91F5054816556B6400F24A2F /* main.m */,
+				91F5054A16556B6400F24A2F /* CommanderData-Prefix.pch */,
+				91F5054E16556B6400F24A2F /* Default.png */,
+				91F5055016556B6400F24A2F /* Default@2x.png */,
+				91F5055216556B6400F24A2F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91F5055716556B6D00F24A2F /* External Assets */ = {
+			isa = PBXGroup;
+			children = (
+				91F5055816556B8800F24A2F /* Icons */,
+			);
+			name = "External Assets";
+			sourceTree = "<group>";
+		};
+		91F5055816556B8800F24A2F /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				91F5055916556B9A00F24A2F /* cd-final small.png */,
+				91F5055A16556B9A00F24A2F /* cd-final.eps */,
+				91F5055B16556B9A00F24A2F /* cd-large icon.jpg */,
+				91F5055C16556B9A00F24A2F /* cd-large icon2.jpg */,
+				91F5055D16556B9A00F24A2F /* CD-small icon2.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -951,6 +1050,23 @@
 			productReference = 91B3D2CD1641834F003EC643 /* TastingNotes.app */;
 			productType = "com.apple.product-type.application";
 		};
+		91F5053C16556B6400F24A2F /* CommanderData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F5055416556B6400F24A2F /* Build configuration list for PBXNativeTarget "CommanderData" */;
+			buildPhases = (
+				91F5053916556B6400F24A2F /* Sources */,
+				91F5053A16556B6400F24A2F /* Frameworks */,
+				91F5053B16556B6400F24A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommanderData;
+			productName = CommanderData;
+			productReference = 91F5053D16556B6400F24A2F /* CommanderData.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -976,6 +1092,7 @@
 				91B3D2CC1641834F003EC643 /* TastingNotes */,
 				913A360416499EEA00A7C284 /* TastingNotesHD */,
 				913FF443164ABD5F00633BB0 /* BeerBro */,
+				91F5053C16556B6400F24A2F /* CommanderData */,
 			);
 		};
 /* End PBXProject section */
@@ -1068,6 +1185,17 @@
 				91B3D45A16418C45003EC643 /* tastingnotesnotestyledefault.css in Resources */,
 				91B3D45B16418C45003EC643 /* winebottle4.jpeg in Resources */,
 				910271051652A59C00663B38 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F5053B16556B6400F24A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F5054716556B6400F24A2F /* InfoPlist.strings in Resources */,
+				91F5054F16556B6400F24A2F /* Default.png in Resources */,
+				91F5055116556B6400F24A2F /* Default@2x.png in Resources */,
+				91F5055316556B6400F24A2F /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1247,6 +1375,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		91F5053916556B6400F24A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F5054916556B6400F24A2F /* main.m in Sources */,
+				91F5054D16556B6400F24A2F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -1278,6 +1415,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				91B3D2DB1641834F003EC643 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		91F5054516556B6400F24A2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91F5054616556B6400F24A2F /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1479,6 +1624,30 @@
 			};
 			name = Release;
 		};
+		91F5055516556B6400F24A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CommanderData/CommanderData-Prefix.pch";
+				INFOPLIST_FILE = "CommanderData/CommanderData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91F5055616556B6400F24A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CommanderData/CommanderData-Prefix.pch";
+				INFOPLIST_FILE = "CommanderData/CommanderData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1517,6 +1686,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		91F5055416556B6400F24A2F /* Build configuration list for PBXNativeTarget "CommanderData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F5055516556B6400F24A2F /* Debug */,
+				91F5055616556B6400F24A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
