@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TNAppDelegate.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface AppDelegate : TNAppDelegate
 
 @end
