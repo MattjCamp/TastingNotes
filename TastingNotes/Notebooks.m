@@ -152,7 +152,7 @@
 	Section *section;
 	Control *control;
 	switch (notebooktype) {
-		case 0:{
+		case Wine:{
 			[self addNewNotebookWithThisName:@"Wines"];
 			notebook = [listOfNotebooks lastObject];
 			
@@ -187,7 +187,7 @@
 			
 		}
 			break;
-		case 1:{
+		case Beer:{
 			[self addNewNotebookWithThisName:@"Beers"];
 			notebook = [listOfNotebooks lastObject];
 			
@@ -230,7 +230,7 @@
 			[self addControlWithThisTitle:NSLocalizedString(@"Comments", @"Comments") andThisType:@"MultiText"];
 		}
 			break;
-		case 2:{
+		case Whiskey:{
 			[self addNewNotebookWithThisName:@"Whiskey"];
 			notebook = [listOfNotebooks lastObject];
 			
@@ -280,7 +280,7 @@
 			[self addControlWithThisTitle:NSLocalizedString(@"Comments", @"Comments") andThisType:@"MultiText"];
 		}
 			break;
-		case 3:{
+		case Cigars:{
 			[self addNewNotebookWithThisName:@"Cigars"];
 			notebook = [listOfNotebooks lastObject];
 			
@@ -323,7 +323,7 @@
 			[self addControlWithThisTitle:NSLocalizedString(@"Comments", @"Comments") andThisType:@"MultiText"];
 		}
 			break;
-		case 4:{
+		case Coffee:{
 			[self addNewNotebookWithThisName:@"Coffee"];
 			notebook = [listOfNotebooks lastObject];
 			
@@ -363,7 +363,7 @@
 			[self addControlWithThisTitle:NSLocalizedString(@"Comments", @"Comments") andThisType:@"MultiText"];
 		}
 			break;
-		case 5:{
+		case Tea:{
 			[self addNewNotebookWithThisName:@"Tea Notebook"];
 			notebook = [listOfNotebooks lastObject];
 			
@@ -401,6 +401,31 @@
 			[self addControlWithThisTitle:NSLocalizedString(@"Comments", @"Comments") andThisType:@"MultiText"];
 			control = [section.listOfControls lastObject];
 			notebook.noteBadge4Control_fk = control.pk;
+		}
+			break;
+        case GeneralNote:{
+			[self addNewNotebookWithThisName:@"Notes"];
+			notebook = [listOfNotebooks lastObject];
+			
+			[notebook addSectionToThisNotebook];
+			section = [notebook.listOfSections lastObject];
+			section.name = @"Overview";
+			[self addControlWithThisTitle:@"Name" andThisType:@"SmallText"];
+			control = [section.listOfControls lastObject];
+			notebook.noteBadge1Control_fk = control.pk;
+			[self addControlWithThisTitle:@"Note Date" andThisType:@"Date"];
+			control = [section.listOfControls lastObject];
+			notebook.noteBadge2Control_fk = control.pk;
+            [self addControlWithThisTitle:@"Picture" andThisType:@"Picture"];
+			control = [section.listOfControls lastObject];
+			notebook.noteImageBadgeControl_fk = control.pk;
+            
+			[notebook addSectionToThisNotebook];
+			section = [notebook.listOfSections lastObject];
+			section.name = @"Detailed Comments";
+			[self addControlWithThisTitle:@"Comments" andThisType:@"MultiText"];
+			control = [section.listOfControls lastObject];
+			notebook.noteBadge3Control_fk = control.pk;
 		}
 			break;
 		default:{

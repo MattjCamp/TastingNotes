@@ -17,7 +17,8 @@ typedef enum notebooktype{
 	Whiskey,
 	Cigars,
 	Coffee,
-	Tea
+	Tea,
+    GeneralNote
 } NotebookType;
 
 @interface Notebooks : NSObject {

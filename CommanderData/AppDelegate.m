@@ -19,13 +19,13 @@
 
 -(void)setUpAppContent{
     self.content = [AppContent sharedContent];
-    self.content.noteBookType = Beer;
+    self.content.noteBookType = GeneralNote;
 }
 
 -(void)startDropbox{
     DropboxBackup *db = [DropboxBackup sharedDropbox];
-    db.appKey = @"oovx72dm7b1yfgy";
-    db.appSecret = @"99m7vpzorb1qsmd";
+    db.appKey = @"f8uopf1ydhoaxt0";
+    db.appSecret = @"t8oq8j41090sj2v";
     db.root = kDBRootAppFolder;
     db.dropboxDBFilePathName = @"/paddb.sql";
     db.dropboxFolderPathName = @"/";

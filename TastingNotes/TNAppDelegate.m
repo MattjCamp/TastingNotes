@@ -52,13 +52,13 @@
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application{
-    //[[Analytics sharedAnalytics] dispatchSynchronously];
+    [[Analytics sharedAnalytics] dispatchSynchronously];
 }
 
 -(BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
 	if ([[DBSession sharedSession] handleOpenURL:url]) {
 		if ([[DBSession sharedSession] isLinked]) {
-            NSLog(@"handleOpenURL: Tasting Notes is linked to Dropbox");
+            NSLog(@"handleOpenURL: %@ is linked to Dropbox", [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"]);
             [[DropboxBackup sharedDropbox] finishLinking];
 		}
 		return YES;
