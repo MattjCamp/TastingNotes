@@ -32,7 +32,7 @@
 }
 
 -(void)applicationDidFinishLaunching:(UIApplication *)application{
-    [self startTracker];
+    //[self startTracker];
     [self setUpAppContent];
     [self startDropbox];
     [self.content setUpInititalNotebook];
@@ -52,7 +52,7 @@
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application{
-    [[Analytics sharedAnalytics] dispatchSynchronously];
+    //[[Analytics sharedAnalytics] dispatchSynchronously];
 }
 
 -(BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
