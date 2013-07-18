@@ -45,10 +45,10 @@
 -(void)skinApp{
     UIFont *font = [UIFont fontWithName:@"Helvetica" size:10];
     UIColor *color = [UIColor darkGrayColor];
-    [[UINavigationBar appearance] setTintColor:color];
+    [[UINavigationBar appearance] setBarTintColor:color];
     [[UILabel appearanceWhenContainedIn:[UITabBar class], nil] setFont:font];
-    [[UIToolbar appearance] setTintColor:color];
-    [[UISearchBar appearance] setTintColor:color];
+    [[UIToolbar appearance] setBarTintColor:color];
+    [[UISearchBar appearance] setBarTintColor:color];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application{
