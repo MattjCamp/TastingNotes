@@ -15,7 +15,6 @@
 		910271151652CA9300663B38 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 910271141652CA9300663B38 /* Default-568h@2x.png */; };
 		910271161652CACB00663B38 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9130DF89164AC1C100FC1142 /* Default-568h@2x.png */; };
 		910271171652CAE300663B38 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 910271121652C9C200663B38 /* Default.png */; };
-		9130DF86164AC1B200FC1142 /* BeerBro-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9130DF85164AC1B200FC1142 /* BeerBro-Info.plist */; };
 		9130DF91164AC1C100FC1142 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9130DF8A164AC1C100FC1142 /* Default.png */; };
 		9130DF93164AC1C100FC1142 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9130DF8D164AC1C100FC1142 /* InfoPlist.strings */; };
 		9130DF94164AC1C100FC1142 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9130DF8F164AC1C100FC1142 /* main.m */; };
@@ -99,10 +98,6 @@
 		913A366C1649A40C00A7C284 /* paddb.sql in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44716418C45003EC643 /* paddb.sql */; };
 		913A366D1649A40C00A7C284 /* tastingnotesnotestyledefault.css in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44816418C45003EC643 /* tastingnotesnotestyledefault.css */; };
 		913A366E1649A40C00A7C284 /* winebottle4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44916418C45003EC643 /* winebottle4.jpeg */; };
-		913A367E1649AFF100A7C284 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A367C1649AFF000A7C284 /* DropboxSDK.framework */; };
-		913A367F1649AFF100A7C284 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A367D1649AFF000A7C284 /* libGoogleAnalytics.a */; };
-		913A36801649B02B00A7C284 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A367C1649AFF000A7C284 /* DropboxSDK.framework */; };
-		913A36811649B02B00A7C284 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A367D1649AFF000A7C284 /* libGoogleAnalytics.a */; };
 		913FF4321649B8F300633BB0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 913FF4311649B8F300633BB0 /* Icon@2x.png */; };
 		913FF4341649B8F600633BB0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 913FF4331649B8F600633BB0 /* Icon.png */; };
 		913FF446164ABD5F00633BB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A368A1649B20E00A7C284 /* UIKit.framework */; };
@@ -158,8 +153,6 @@
 		913FF48D164ABDFA00633BB0 /* BlogWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3CE16418874003EC643 /* BlogWebView.m */; };
 		913FF48E164ABE0100633BB0 /* NoteAdder.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3C216418859003EC643 /* NoteAdder.m */; };
 		913FF48F164ABE0100633BB0 /* Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D3BE16418844003EC643 /* Storyboard_iPhone.storyboard */; };
-		913FF490164ABE3600633BB0 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A367C1649AFF000A7C284 /* DropboxSDK.framework */; };
-		913FF491164ABE3900633BB0 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A367D1649AFF000A7C284 /* libGoogleAnalytics.a */; };
 		913FF492164ABE4400633BB0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D38F16418560003EC643 /* MessageUI.framework */; };
 		913FF493164ABE4400633BB0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D38B164184DF003EC643 /* QuartzCore.framework */; };
 		913FF494164ABE4400633BB0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D38516418435003EC643 /* Security.framework */; };
@@ -310,8 +303,6 @@
 		91D0ED5D166E3C1A0084EEDF /* ContactUsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3CC16418874003EC643 /* ContactUsTVC.m */; };
 		91D0ED5E166E3C1A0084EEDF /* BlogWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3CE16418874003EC643 /* BlogWebView.m */; };
 		91D0ED5F166E3C1F0084EEDF /* NoteAdder.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3D3C216418859003EC643 /* NoteAdder.m */; };
-		91D0ED60166E3C360084EEDF /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A367D1649AFF000A7C284 /* libGoogleAnalytics.a */; };
-		91D0ED61166E3C3A0084EEDF /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A367C1649AFF000A7C284 /* DropboxSDK.framework */; };
 		91D0ED62166E3C3D0084EEDF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D38B164184DF003EC643 /* QuartzCore.framework */; };
 		91D0ED63166E3C480084EEDF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D38516418435003EC643 /* Security.framework */; };
 		91D0ED64166E3C480084EEDF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B3D3831641842E003EC643 /* CFNetwork.framework */; };
@@ -340,6 +331,15 @@
 		91F5054F16556B6400F24A2F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F5054E16556B6400F24A2F /* Default.png */; };
 		91F5055116556B6400F24A2F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F5055016556B6400F24A2F /* Default@2x.png */; };
 		91F5055316556B6400F24A2F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F5055216556B6400F24A2F /* Default-568h@2x.png */; };
+		C9012C781797686F0033DC9C /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9012C771797686F0033DC9C /* DropboxSDK.framework */; };
+		C9012C791797686F0033DC9C /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9012C771797686F0033DC9C /* DropboxSDK.framework */; };
+		C9012C7A1797686F0033DC9C /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9012C771797686F0033DC9C /* DropboxSDK.framework */; };
+		C9012C7B1797686F0033DC9C /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9012C771797686F0033DC9C /* DropboxSDK.framework */; };
+		C9012C7D179768BC0033DC9C /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9012C7C179768BC0033DC9C /* libGoogleAnalytics.a */; };
+		C9012C7E179768BC0033DC9C /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9012C7C179768BC0033DC9C /* libGoogleAnalytics.a */; };
+		C9012C7F179768BC0033DC9C /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9012C7C179768BC0033DC9C /* libGoogleAnalytics.a */; };
+		C9012C80179768BC0033DC9C /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9012C7C179768BC0033DC9C /* libGoogleAnalytics.a */; };
+		C9012C82179768DE0033DC9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9012C81179768DE0033DC9C /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -376,8 +376,6 @@
 		913A361616499EEA00A7C284 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		913A361816499EEA00A7C284 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		913A361A16499EEA00A7C284 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		913A367C1649AFF000A7C284 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DropboxSDK.framework; path = ../Frameworks/DropboxSDK.framework; sourceTree = "<group>"; };
-		913A367D1649AFF000A7C284 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = ../Frameworks/libGoogleAnalytics.a; sourceTree = "<group>"; };
 		913A36821649B04F00A7C284 /* GANTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GANTracker.h; sourceTree = "<group>"; };
 		913A368A1649B20E00A7C284 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		913A368C1649B20E00A7C284 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -538,6 +536,9 @@
 		91F5055B16556B9A00F24A2F /* cd-large icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cd-large icon.jpg"; sourceTree = "<group>"; };
 		91F5055C16556B9A00F24A2F /* cd-large icon2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cd-large icon2.jpg"; sourceTree = "<group>"; };
 		91F5055D16556B9A00F24A2F /* CD-small icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CD-small icon2.png"; sourceTree = "<group>"; };
+		C9012C771797686F0033DC9C /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		C9012C7C179768BC0033DC9C /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
+		C9012C81179768DE0033DC9C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -545,8 +546,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				913A36801649B02B00A7C284 /* DropboxSDK.framework in Frameworks */,
-				913A36811649B02B00A7C284 /* libGoogleAnalytics.a in Frameworks */,
+				C9012C791797686F0033DC9C /* DropboxSDK.framework in Frameworks */,
 				913A36251649A18200A7C284 /* CFNetwork.framework in Frameworks */,
 				913A36241649A17900A7C284 /* Security.framework in Frameworks */,
 				913A36231649A17000A7C284 /* libsqlite3.dylib in Frameworks */,
@@ -555,6 +555,7 @@
 				913A360716499EEA00A7C284 /* UIKit.framework in Frameworks */,
 				913A360816499EEA00A7C284 /* Foundation.framework in Frameworks */,
 				913A360916499EEA00A7C284 /* CoreGraphics.framework in Frameworks */,
+				C9012C7E179768BC0033DC9C /* libGoogleAnalytics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,14 +565,14 @@
 			files = (
 				913FF446164ABD5F00633BB0 /* UIKit.framework in Frameworks */,
 				913FF447164ABD5F00633BB0 /* Foundation.framework in Frameworks */,
+				C9012C7A1797686F0033DC9C /* DropboxSDK.framework in Frameworks */,
 				913FF448164ABD5F00633BB0 /* CoreGraphics.framework in Frameworks */,
-				913FF490164ABE3600633BB0 /* DropboxSDK.framework in Frameworks */,
-				913FF491164ABE3900633BB0 /* libGoogleAnalytics.a in Frameworks */,
 				913FF492164ABE4400633BB0 /* MessageUI.framework in Frameworks */,
 				913FF493164ABE4400633BB0 /* QuartzCore.framework in Frameworks */,
 				913FF494164ABE4400633BB0 /* Security.framework in Frameworks */,
 				913FF495164ABE4400633BB0 /* CFNetwork.framework in Frameworks */,
 				913FF496164ABE4700633BB0 /* libsqlite3.dylib in Frameworks */,
+				C9012C7F179768BC0033DC9C /* libGoogleAnalytics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,8 +580,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				913A367E1649AFF100A7C284 /* DropboxSDK.framework in Frameworks */,
-				913A367F1649AFF100A7C284 /* libGoogleAnalytics.a in Frameworks */,
+				C9012C7D179768BC0033DC9C /* libGoogleAnalytics.a in Frameworks */,
+				C9012C781797686F0033DC9C /* DropboxSDK.framework in Frameworks */,
 				91B3D39016418560003EC643 /* MessageUI.framework in Frameworks */,
 				91B3D38C164184DF003EC643 /* QuartzCore.framework in Frameworks */,
 				91B3D38816418461003EC643 /* libsqlite3.dylib in Frameworks */,
@@ -598,14 +599,14 @@
 			files = (
 				91F5053F16556B6400F24A2F /* UIKit.framework in Frameworks */,
 				91F5054016556B6400F24A2F /* Foundation.framework in Frameworks */,
+				C9012C7B1797686F0033DC9C /* DropboxSDK.framework in Frameworks */,
 				91F5054116556B6400F24A2F /* CoreGraphics.framework in Frameworks */,
-				91D0ED60166E3C360084EEDF /* libGoogleAnalytics.a in Frameworks */,
-				91D0ED61166E3C3A0084EEDF /* DropboxSDK.framework in Frameworks */,
 				91D0ED62166E3C3D0084EEDF /* QuartzCore.framework in Frameworks */,
 				91D0ED63166E3C480084EEDF /* Security.framework in Frameworks */,
 				91D0ED64166E3C480084EEDF /* CFNetwork.framework in Frameworks */,
 				91D0ED65166E3C520084EEDF /* libsqlite3.dylib in Frameworks */,
 				91D0ED74166E3CFF0084EEDF /* MessageUI.framework in Frameworks */,
+				C9012C80179768BC0033DC9C /* libGoogleAnalytics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -762,9 +763,9 @@
 		91B3D2D01641834F003EC643 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C9012C7C179768BC0033DC9C /* libGoogleAnalytics.a */,
+				C9012C771797686F0033DC9C /* DropboxSDK.framework */,
 				913A36821649B04F00A7C284 /* GANTracker.h */,
-				913A367C1649AFF000A7C284 /* DropboxSDK.framework */,
-				913A367D1649AFF000A7C284 /* libGoogleAnalytics.a */,
 				91B3D38F16418560003EC643 /* MessageUI.framework */,
 				91B3D38B164184DF003EC643 /* QuartzCore.framework */,
 				91B3D38516418435003EC643 /* Security.framework */,
@@ -787,6 +788,7 @@
 				91B3D39516418710003EC643 /* Model */,
 				91B3D3BC16418785003EC643 /* View */,
 				91B3D2D01641834F003EC643 /* Frameworks */,
+				C9012C81179768DE0033DC9C /* Images.xcassets */,
 				91B3D2D81641834F003EC643 /* Supporting Files */,
 			);
 			path = TastingNotes;
@@ -1165,7 +1167,7 @@
 		91B3D2C41641834F003EC643 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Mobile App Mastery";
 			};
 			buildConfigurationList = 91B3D2C71641834F003EC643 /* Build configuration list for PBXProject "TastingNotes" */;
@@ -1241,7 +1243,6 @@
 				913FF4A3164ABE6B00633BB0 /* winebottle4.jpeg in Resources */,
 				913FF4A4164ABE8D00633BB0 /* Icon@2x.png in Resources */,
 				913FF4A5164ABE8F00633BB0 /* Icon.png in Resources */,
-				9130DF86164AC1B200FC1142 /* BeerBro-Info.plist in Resources */,
 				9130DF91164AC1C100FC1142 /* Default.png in Resources */,
 				9130DF93164AC1C100FC1142 /* InfoPlist.strings in Resources */,
 				9101099A164C44070042D253 /* dropbox_icon_35.png in Resources */,
@@ -1266,6 +1267,7 @@
 				91B3D44E16418C45003EC643 /* aweberform_iphone.html in Resources */,
 				91B3D45016418C45003EC643 /* Default@2x.png in Resources */,
 				91B3D45116418C45003EC643 /* dropbox_icon_35.png in Resources */,
+				C9012C82179768DE0033DC9C /* Images.xcassets in Resources */,
 				91B3D45216418C45003EC643 /* icon-book.png in Resources */,
 				91B3D45316418C45003EC643 /* icon-book@2x.png in Resources */,
 				91B3D45416418C45003EC643 /* icon-erase.png in Resources */,
@@ -1646,14 +1648,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../Frameworks\"",
+					"\\\"$(SRCROOT)/../Frameworks\\\"",
+					"$(SRCROOT)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeerBro/BeerBro-Prefix.pch";
 				INFOPLIST_FILE = "BeerBro/BeerBro-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../Frameworks\"",
+					"\\\"$(SRCROOT)/../Frameworks\\\"",
+					"$(SRCROOT)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -1667,14 +1671,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../Frameworks\"",
+					"\\\"$(SRCROOT)/../Frameworks\\\"",
+					"$(SRCROOT)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeerBro/BeerBro-Prefix.pch";
 				INFOPLIST_FILE = "BeerBro/BeerBro-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../Frameworks\"",
+					"\\\"$(SRCROOT)/../Frameworks\\\"",
+					"$(SRCROOT)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "FCD38364-FAC7-4245-9AA3-3DA7DCACD653";
@@ -1735,6 +1741,8 @@
 		91B3D2EC1641834F003EC643 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -1758,6 +1766,8 @@
 		91B3D2ED1641834F003EC643 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1788,14 +1798,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../Frameworks\"",
+					"\\\"$(SRCROOT)/../Frameworks\\\"",
+					"$(SRCROOT)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CommanderData/CommanderData-Prefix.pch";
 				INFOPLIST_FILE = "CommanderData/CommanderData-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../Frameworks\"",
+					"\\\"$(SRCROOT)/../Frameworks\\\"",
+					"$(SRCROOT)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -1808,14 +1820,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../Frameworks\"",
+					"\\\"$(SRCROOT)/../Frameworks\\\"",
+					"$(SRCROOT)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CommanderData/CommanderData-Prefix.pch";
 				INFOPLIST_FILE = "CommanderData/CommanderData-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../Frameworks\"",
+					"\\\"$(SRCROOT)/../Frameworks\\\"",
+					"$(SRCROOT)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
