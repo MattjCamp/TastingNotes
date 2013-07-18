@@ -331,15 +331,15 @@
 		91F5054F16556B6400F24A2F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F5054E16556B6400F24A2F /* Default.png */; };
 		91F5055116556B6400F24A2F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F5055016556B6400F24A2F /* Default@2x.png */; };
 		91F5055316556B6400F24A2F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F5055216556B6400F24A2F /* Default-568h@2x.png */; };
-		C9012C781797686F0033DC9C /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9012C771797686F0033DC9C /* DropboxSDK.framework */; };
-		C9012C791797686F0033DC9C /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9012C771797686F0033DC9C /* DropboxSDK.framework */; };
-		C9012C7A1797686F0033DC9C /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9012C771797686F0033DC9C /* DropboxSDK.framework */; };
-		C9012C7B1797686F0033DC9C /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9012C771797686F0033DC9C /* DropboxSDK.framework */; };
 		C9012C7D179768BC0033DC9C /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9012C7C179768BC0033DC9C /* libGoogleAnalytics.a */; };
 		C9012C7E179768BC0033DC9C /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9012C7C179768BC0033DC9C /* libGoogleAnalytics.a */; };
 		C9012C7F179768BC0033DC9C /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9012C7C179768BC0033DC9C /* libGoogleAnalytics.a */; };
 		C9012C80179768BC0033DC9C /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9012C7C179768BC0033DC9C /* libGoogleAnalytics.a */; };
 		C9012C82179768DE0033DC9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9012C81179768DE0033DC9C /* Images.xcassets */; };
+		C9F85374179842D000DDE9E0 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F85373179842D000DDE9E0 /* DropboxSDK.framework */; };
+		C9F85375179842D000DDE9E0 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F85373179842D000DDE9E0 /* DropboxSDK.framework */; };
+		C9F85376179842D000DDE9E0 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F85373179842D000DDE9E0 /* DropboxSDK.framework */; };
+		C9F85377179842D000DDE9E0 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F85373179842D000DDE9E0 /* DropboxSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -536,9 +536,9 @@
 		91F5055B16556B9A00F24A2F /* cd-large icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cd-large icon.jpg"; sourceTree = "<group>"; };
 		91F5055C16556B9A00F24A2F /* cd-large icon2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cd-large icon2.jpg"; sourceTree = "<group>"; };
 		91F5055D16556B9A00F24A2F /* CD-small icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CD-small icon2.png"; sourceTree = "<group>"; };
-		C9012C771797686F0033DC9C /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
 		C9012C7C179768BC0033DC9C /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
 		C9012C81179768DE0033DC9C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C9F85373179842D000DDE9E0 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -546,7 +546,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9012C791797686F0033DC9C /* DropboxSDK.framework in Frameworks */,
 				913A36251649A18200A7C284 /* CFNetwork.framework in Frameworks */,
 				913A36241649A17900A7C284 /* Security.framework in Frameworks */,
 				913A36231649A17000A7C284 /* libsqlite3.dylib in Frameworks */,
@@ -555,6 +554,7 @@
 				913A360716499EEA00A7C284 /* UIKit.framework in Frameworks */,
 				913A360816499EEA00A7C284 /* Foundation.framework in Frameworks */,
 				913A360916499EEA00A7C284 /* CoreGraphics.framework in Frameworks */,
+				C9F85375179842D000DDE9E0 /* DropboxSDK.framework in Frameworks */,
 				C9012C7E179768BC0033DC9C /* libGoogleAnalytics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -565,13 +565,13 @@
 			files = (
 				913FF446164ABD5F00633BB0 /* UIKit.framework in Frameworks */,
 				913FF447164ABD5F00633BB0 /* Foundation.framework in Frameworks */,
-				C9012C7A1797686F0033DC9C /* DropboxSDK.framework in Frameworks */,
 				913FF448164ABD5F00633BB0 /* CoreGraphics.framework in Frameworks */,
 				913FF492164ABE4400633BB0 /* MessageUI.framework in Frameworks */,
 				913FF493164ABE4400633BB0 /* QuartzCore.framework in Frameworks */,
 				913FF494164ABE4400633BB0 /* Security.framework in Frameworks */,
 				913FF495164ABE4400633BB0 /* CFNetwork.framework in Frameworks */,
 				913FF496164ABE4700633BB0 /* libsqlite3.dylib in Frameworks */,
+				C9F85376179842D000DDE9E0 /* DropboxSDK.framework in Frameworks */,
 				C9012C7F179768BC0033DC9C /* libGoogleAnalytics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -581,7 +581,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9012C7D179768BC0033DC9C /* libGoogleAnalytics.a in Frameworks */,
-				C9012C781797686F0033DC9C /* DropboxSDK.framework in Frameworks */,
 				91B3D39016418560003EC643 /* MessageUI.framework in Frameworks */,
 				91B3D38C164184DF003EC643 /* QuartzCore.framework in Frameworks */,
 				91B3D38816418461003EC643 /* libsqlite3.dylib in Frameworks */,
@@ -589,6 +588,7 @@
 				91B3D3841641842E003EC643 /* CFNetwork.framework in Frameworks */,
 				91B3D2D21641834F003EC643 /* UIKit.framework in Frameworks */,
 				91B3D2D41641834F003EC643 /* Foundation.framework in Frameworks */,
+				C9F85374179842D000DDE9E0 /* DropboxSDK.framework in Frameworks */,
 				91B3D2D61641834F003EC643 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -599,13 +599,13 @@
 			files = (
 				91F5053F16556B6400F24A2F /* UIKit.framework in Frameworks */,
 				91F5054016556B6400F24A2F /* Foundation.framework in Frameworks */,
-				C9012C7B1797686F0033DC9C /* DropboxSDK.framework in Frameworks */,
 				91F5054116556B6400F24A2F /* CoreGraphics.framework in Frameworks */,
 				91D0ED62166E3C3D0084EEDF /* QuartzCore.framework in Frameworks */,
 				91D0ED63166E3C480084EEDF /* Security.framework in Frameworks */,
 				91D0ED64166E3C480084EEDF /* CFNetwork.framework in Frameworks */,
 				91D0ED65166E3C520084EEDF /* libsqlite3.dylib in Frameworks */,
 				91D0ED74166E3CFF0084EEDF /* MessageUI.framework in Frameworks */,
+				C9F85377179842D000DDE9E0 /* DropboxSDK.framework in Frameworks */,
 				C9012C80179768BC0033DC9C /* libGoogleAnalytics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -695,6 +695,7 @@
 		913A36891649B20D00A7C284 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C9F85373179842D000DDE9E0 /* DropboxSDK.framework */,
 				913A368A1649B20E00A7C284 /* UIKit.framework */,
 				913A368C1649B20E00A7C284 /* Foundation.framework */,
 				913A368E1649B20E00A7C284 /* CoreGraphics.framework */,
@@ -764,7 +765,6 @@
 			isa = PBXGroup;
 			children = (
 				C9012C7C179768BC0033DC9C /* libGoogleAnalytics.a */,
-				C9012C771797686F0033DC9C /* DropboxSDK.framework */,
 				913A36821649B04F00A7C284 /* GANTracker.h */,
 				91B3D38F16418560003EC643 /* MessageUI.framework */,
 				91B3D38B164184DF003EC643 /* QuartzCore.framework */,
