@@ -201,7 +201,7 @@ NSString *writableDatabaseFullFileName;
 				  withThisValue:(NSString *)valueName{
 	NSString *v = [valueName stringByReplacingOccurrencesOfString: @"'" withString:@"''"];
 	sqlite3_stmt *statement;
-	NSInteger pk;
+	NSInteger pk = -1;
 	NSString *sql1 = [NSString stringWithFormat:@"INSERT INTO %@ (%@) VALUES('%@');",
 					  tableName,columnName,v];
 	const char *sql = [sql1 UTF8String];
