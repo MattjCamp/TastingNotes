@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6D922930-335D-48D6-8F34-A8CD686583BB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TastingNotes</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>93CAC8E0-5922-47A1-966F-27453323BE04</key>
+		<string>ssh://github.com/mattjcamp/TastingNotes_Version_3.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TastingNotes.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>93CAC8E0-5922-47A1-966F-27453323BE04</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/mattjcamp/TastingNotes_Version_3.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>93CAC8E0-5922-47A1-966F-27453323BE04</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>93CAC8E0-5922-47A1-966F-27453323BE04</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TastingNotes</string>
+		</dict>
+	</array>
+</dict>
+</plist>
