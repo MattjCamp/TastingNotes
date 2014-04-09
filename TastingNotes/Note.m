@@ -9,7 +9,6 @@
 #import "Note.h"
 #import "AppContent.h"
 #import "NoteToHTMLPage.h"
-#import "Analytics.h"
 
 @implementation Note
 
@@ -268,9 +267,7 @@ NSMutableArray *listOfContent;
 
 -(NSString *)socialString{
     NSString *temp = [NSString stringWithFormat:@"Just tasted %@ %@ #tastingnotesapp", self.titleText, self.detailText];
-    [[Analytics sharedAnalytics]thisUserActionOccured:@"Social Media Message"
-                                      forThisCategory:@"Utilities"
-                                            thisValue:-1];
+
     return temp;
 }
 

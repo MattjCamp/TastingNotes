@@ -7,7 +7,6 @@
 //
 
 #import "Notebook.h"
-#import "Analytics.h"
 
 @implementation Notebook
 
@@ -502,10 +501,6 @@
 	note.order = noteOrder;
 	
 	[self.listOfNotes addObject:note];
-    
-    [[Analytics sharedAnalytics]thisUserActionOccured:@"Note Added"
-                                      forThisCategory:@"Notebook"
-                                            thisValue:self.listOfNotes.count];
 }
 
 -(void)removeThisNote:(Note *)noteToRemove{

@@ -7,7 +7,6 @@
 //
 
 #import "Notebooks.h"
-#import "Analytics.h"
 
 @implementation Notebooks
 
@@ -49,9 +48,6 @@
 	notebook.order = listOrder;
 	
 	[self.listOfNotebooks addObject:notebook];
-    [[Analytics sharedAnalytics]thisUserActionOccured:@"Custom Notebook Added"
-                                      forThisCategory:@"Notebook"
-                                            thisValue:self.listOfNotebooks.count];
 }
 
 -(void)addListItemWithThisListControlPK:(NSNumber *)listControlPK andThisValue:(NSString *)listItemValue{

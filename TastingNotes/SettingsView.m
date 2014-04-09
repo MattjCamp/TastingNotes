@@ -7,7 +7,6 @@
 //
 
 #import "SettingsView.h"
-#import "Analytics.h"
 
 @implementation SettingsView
 
@@ -17,7 +16,6 @@
 
 -(void)viewDidLoad{
     [super viewDidLoad];
-    [[Analytics sharedAnalytics] thisPageWasViewed:NSStringFromClass([self class])];
 }
 
 @end

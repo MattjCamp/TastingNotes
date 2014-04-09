@@ -4,45 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BeerBro.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>CommanderData.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
 		<key>TastingNotes.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>TastingNotesHD.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>913A360416499EEA00A7C284</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>913FF443164ABD5F00633BB0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>91B3D2CC1641834F003EC643</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>91F5053C16556B6400F24A2F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

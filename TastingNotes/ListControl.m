@@ -41,12 +41,12 @@
 			[_listItems addObject:listItem];
 			i++;
 		}
-        NSLog(@"_listItems.count = %i", _listItems.count);
+        NSLog(@"_listItems.count = %li", (long)_listItems.count);
         return _listItems;
 	}
     else{
         return _listItems;
-        NSLog(@"_listItems.count = %i", _listItems.count);
+        NSLog(@"_listItems.count = %li", (long)_listItems.count);
     }
 }
 

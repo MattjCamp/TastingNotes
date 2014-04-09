@@ -8,7 +8,6 @@
 
 #import "NotebookSelectorView.h"
 #import "NotebookView.h"
-#import "Analytics.h"
 
 @implementation NotebookSelectorView
 Notebook *tempNotebook = nil;
@@ -68,7 +67,6 @@ Notebook *tempNotebook = nil;
 -(void)viewDidLoad{
     [super viewDidLoad];
     self.content = [AppContent sharedContent];
-    [[Analytics sharedAnalytics] thisPageWasViewed:NSStringFromClass([self class])];
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{

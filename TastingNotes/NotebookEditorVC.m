@@ -7,7 +7,6 @@
 //
 
 #import "NotebookEditorVC.h"
-#import "Analytics.h"
 
 @implementation NotebookEditorVC
 
@@ -24,7 +23,6 @@
 
 -(void)viewDidLoad{
     [super viewDidLoad];
-    [[Analytics sharedAnalytics] thisPageWasViewed:NSStringFromClass([self class])];
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {

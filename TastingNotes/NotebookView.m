@@ -9,7 +9,6 @@
 #import "NotebookView.h"
 #import "NoteSummaryTableViewCell.h"
 #import "NotebookSelectorView.h"
-#import "Analytics.h"
 
 @implementation NotebookView
 
@@ -25,7 +24,6 @@
     CGRect bounds = self.tv.bounds;
     bounds.origin.y = bounds.origin.y + self.notesSearchBar.bounds.size.height;
     self.tv.bounds = bounds;
-    [[Analytics sharedAnalytics] thisPageWasViewed:@"NotebookView"];
 }
 
 -(void)viewDidAppear:(BOOL)animated{

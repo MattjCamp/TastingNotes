@@ -7,34 +7,18 @@
 //
 
 #import "TNAppDelegate.h"
-#import "DropboxBackup.h"
-#import "Analytics.h"
 
 @implementation TNAppDelegate
 
--(void)startTracker{
-    [[Analytics sharedAnalytics] setWebPropertyID:@"UA-35331153-1"];
-    [[Analytics sharedAnalytics] startTracking];
-}
+
 
 -(void)setUpAppContent{
     self.content = [AppContent sharedContent];
     self.content.noteBookType = Wine;
 }
 
--(void)startDropbox{
-    DropboxBackup *db = [DropboxBackup sharedDropbox];
-    db.appKey = @"70m5g2c6cyr0pfw";
-    db.appSecret = @"rnpfck1mkyqbi4p";
-    db.root = kDBRootDropbox;
-    db.dropboxDBFilePathName = @"/tastingnotesappbackup/paddb.sql";
-    db.dropboxFolderPathName = @"/tastingnotesappbackup";
-}
-
 -(void)applicationDidFinishLaunching:(UIApplication *)application{
-    //[self startTracker];
     [self setUpAppContent];
-    [self startDropbox];
     [self.content setUpInititalNotebook];
     UITabBarController *tbc = (UITabBarController *)self.window.rootViewController;
     UINavigationController *nc1 = [[tbc viewControllers] objectAtIndex:1];
@@ -49,22 +33,6 @@
     [[UILabel appearanceWhenContainedIn:[UITabBar class], nil] setFont:font];
     [[UIToolbar appearance] setBarTintColor:color];
     [[UISearchBar appearance] setBarTintColor:color];
-}
-
-- (void)applicationWillResignActive:(UIApplication *)application{
-    //[[Analytics sharedAnalytics] dispatchSynchronously];
-}
-
--(BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
-	if ([[DBSession sharedSession] handleOpenURL:url]) {
-		if ([[DBSession sharedSession] isLinked]) {
-            NSLog(@"handleOpenURL: %@ is linked to Dropbox", [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"]);
-            [[DropboxBackup sharedDropbox] finishLinking];
-		}
-		return YES;
-	}
-	
-	return NO;
 }
 
 -(void)lockEditingWhileDoingDatabaseRestore{
