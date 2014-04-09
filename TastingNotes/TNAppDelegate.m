@@ -21,6 +21,7 @@
     UITabBarController *tbc = (UITabBarController *)self.window.rootViewController;
     UINavigationController *nc1 = [[tbc viewControllers] objectAtIndex:1];
     nc1.tabBarItem.title = self.content.activeNotebook.name;
+    self.window.tintColor = [UIColor redColor];
 }
 
 @end
