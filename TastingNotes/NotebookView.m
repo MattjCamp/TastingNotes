@@ -32,7 +32,7 @@
 	[label setFont:[UIFont boldSystemFontOfSize:16.0]];
     label.textAlignment = NSTextAlignmentCenter;
 	[label setBackgroundColor:[UIColor clearColor]];
-	[label setTextColor:[UIColor whiteColor]];
+	[label setTextColor:[UIColor redColor]];
 	[label setText:self.notebook.name];
 	[self.navigationController.navigationBar.topItem setTitleView:label];
 }
@@ -150,49 +150,6 @@
 	self.notesSearchBar.showsCancelButton = NO;
     self.navigationItem.leftBarButtonItem.enabled = YES;
 	[searchBar resignFirstResponder];
-}
-
--(void)lockEditingWhileDoingDatabaseRestore{
-    NSLog(@"Locking down Notebook View for a database restore");
-    [self.tv setEditing:NO animated:YES];
-    self.editButtonItem.enabled = NO;
-    self.editButtonItem.title = @"Edit";
-    self.editButtonItem.style = UIBarButtonItemStylePlain;
-    self.navigationItem.leftBarButtonItem = self.showNotebooksSelectorButton;
-    
-    for(UIViewController *vc in self.childViewControllers){
-        if([vc canPerformAction:@selector(lockEditingWhileDoingDatabaseRestore) withSender:nil]){
-            NSLog(@"- Locking vc %@", vc.title);
-            [vc performSelector:@selector(lockEditingWhileDoingDatabaseRestore)];
-        }
-    }
-}
-
--(void)unlockEditingAfterDoingDatabaseRestore{
-    NSLog(@"Unlocking Notebook View for after a database restore");
-    
-    [UIView animateWithDuration:1.0 animations:^{
-        self.tv.alpha = 0.0;
-    }];
-    
-    for(UIViewController *vc in self.childViewControllers){
-        if([vc canPerformAction:@selector(unlockEditingAfterDoingDatabaseRestore) withSender:nil]){
-            NSLog(@"- Locking vc %@", vc.title);
-            [vc performSelector:@selector(unlockEditingAfterDoingDatabaseRestore)];
-        }
-    }
-    
-    self.currentListOfNotes = nil;
-    self.notebook = [[AppContent sharedContent] activeNotebook];
-    self.currentListOfNotes = [self.notebook listOfNotes];
-    self.title = self.notebook.name;
-    self.navigationItem.leftBarButtonItem = self.showNotebooksSelectorButton;
-    self.editButtonItem.enabled = YES;
-    self.notesSearchBar.placeholder = [NSString stringWithFormat:@"Search %@", self.notebook.name];
-    [self.tv reloadData];
-    [UIView animateWithDuration:1.0 animations:^{
-        self.tv.alpha = 1.0;
-    }];
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{

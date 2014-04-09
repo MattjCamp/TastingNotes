@@ -18,6 +18,4 @@
 @property (strong, nonatomic) IBOutlet UIBarButtonItem *showNotebooksSelectorButton;
 @property (strong, nonatomic) UIBarButtonItem *addButton;
 
--(void)lockEditingWhileDoingDatabaseRestore;
-
 @end
