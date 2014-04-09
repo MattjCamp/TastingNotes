@@ -10,8 +10,6 @@
 
 @implementation TNAppDelegate
 
-
-
 -(void)setUpAppContent{
     self.content = [AppContent sharedContent];
     self.content.noteBookType = Wine;
@@ -23,59 +21,6 @@
     UITabBarController *tbc = (UITabBarController *)self.window.rootViewController;
     UINavigationController *nc1 = [[tbc viewControllers] objectAtIndex:1];
     nc1.tabBarItem.title = self.content.activeNotebook.name;
-    //[self skinApp];
-}
-
--(void)skinApp{
-    UIFont *font = [UIFont fontWithName:@"Helvetica" size:10];
-    UIColor *color = [UIColor darkGrayColor];
-    [[UINavigationBar appearance] setBarTintColor:color];
-    [[UILabel appearanceWhenContainedIn:[UITabBar class], nil] setFont:font];
-    [[UIToolbar appearance] setBarTintColor:color];
-    [[UISearchBar appearance] setBarTintColor:color];
-}
-
--(void)lockEditingWhileDoingDatabaseRestore{
-    NSLog(@"Locking down the UI for a database restore");
-    UITabBarController *tbc = (UITabBarController *)self.window.rootViewController;
-    
-    UIViewController *noteAdder = [tbc.viewControllers objectAtIndex:0];
-    if([noteAdder canPerformAction:@selector(lockEditingWhileDoingDatabaseRestore) withSender:nil]){
-        NSLog(@"- Locking vc %@", noteAdder.title);
-        [noteAdder performSelector:@selector(lockEditingWhileDoingDatabaseRestore)];
-    }
-    
-    UINavigationController *notebook = [tbc.viewControllers objectAtIndex:1];
-    for (UIViewController *vc in notebook.viewControllers){
-        if([vc canPerformAction:@selector(lockEditingWhileDoingDatabaseRestore) withSender:nil]){
-            NSLog(@"- Locking vc %@", vc.title);
-            [vc performSelector:@selector(lockEditingWhileDoingDatabaseRestore)];
-        }
-    }
-}
-
--(void)unlockEditingAfterDoingDatabaseRestore{
-    
-    AppContent *content = [AppContent sharedContent];
-    [content resetNotebookData];
-    content.activeNotebook = [content.notebooks.listOfNotebooks lastObject];
-    
-    NSLog(@"Unlocking the UI for a database restore");
-    UITabBarController *tbc = (UITabBarController *)self.window.rootViewController;
-    
-    UIViewController *noteAdder = [tbc.viewControllers objectAtIndex:0];
-    if([noteAdder canPerformAction:@selector(unlockEditingAfterDoingDatabaseRestore) withSender:nil]){
-        NSLog(@"- Unlocking vc %@", noteAdder.title);
-        [noteAdder performSelector:@selector(unlockEditingAfterDoingDatabaseRestore)];
-    }
-    
-    UINavigationController *notebook = [tbc.viewControllers objectAtIndex:1];
-    for (UIViewController *vc in notebook.viewControllers){
-        if([vc canPerformAction:@selector(unlockEditingAfterDoingDatabaseRestore) withSender:nil]){
-            NSLog(@"- Unlocking vc %@", vc.title);
-            [vc performSelector:@selector(unlockEditingAfterDoingDatabaseRestore)];
-        }
-    }
 }
 
 @end

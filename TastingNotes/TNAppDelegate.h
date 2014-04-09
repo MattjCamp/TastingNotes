@@ -14,8 +14,4 @@
 @property (nonatomic, strong) UIWindow *window;
 @property (nonatomic, strong)AppContent *content;
 
--(void)startTracker;
--(void)lockEditingWhileDoingDatabaseRestore;
--(void)unlockEditingAfterDoingDatabaseRestore;
-
 @end
