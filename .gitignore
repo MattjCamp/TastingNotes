@@ -22,8 +22,8 @@ DerivedData
 *.pbxuser
 *.perspectivev3
 xcuserdata
-*.xcuserdata
-TastingNotes.xcodeproj/project.xcworkspace/xcuserdata/Matt.xcuserdatad/UserInterfaceState.xcuserstate
+*.xcuserstate
 
 #CocoaPods
 Pods
+*.xcuserstate
