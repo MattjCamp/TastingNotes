@@ -10,7 +10,7 @@
 *.perspectivev3
 !default.perspectivev3
 xcuserdata
-*/User Data/*
+*/project.xcworkspace/xcuserdata/Matt.xcuserdatad/*
 profile
 *.moved-aside
 DerivedData
