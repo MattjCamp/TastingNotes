@@ -10,7 +10,7 @@
 *.perspectivev3
 !default.perspectivev3
 xcuserdata
-*/User Data/*
+UserInterfaceState.xcuserstate
 profile
 *.moved-aside
 DerivedData
