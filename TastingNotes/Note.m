@@ -156,7 +156,6 @@ NSMutableArray *listOfContent;
     Content *content = [self contentInThisControl:thumbnailControl];
     NSString *tempName = [NSString stringWithFormat:@"%@%@.png", [self.pk stringValue], [content.pk stringValue]];
     NSString *tempThumbnailCacheFilename = [[[AppContent sharedContent] cacheDirectory] stringByAppendingPathComponent:tempName];
-    NSLog(@"%@", tempThumbnailCacheFilename);
     
     return tempThumbnailCacheFilename;
 }

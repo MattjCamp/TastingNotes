@@ -55,7 +55,11 @@
     Note *note = [self.currentListOfNotes objectAtIndex:indexPath.row];
     
     if(note.notebook.noteImageBadgeControl_fk){
-        NoteSummaryTableViewCell *cell = (NoteSummaryTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"notesummarycell"];
+        NoteSummaryTableViewCell *cell;
+        if(note.thumbnail)
+            cell = (NoteSummaryTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"notesummarycell"];
+        else
+            cell = (NoteSummaryTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"notesummarycellnoimage"];
         cell.note = note;
         return cell;
     }

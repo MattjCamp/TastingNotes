@@ -13,7 +13,6 @@
 
 -(void)drawRect:(CGRect)rect{
     [super drawRect:rect];
-    //self.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     [[self.containerView layer] setCornerRadius:8.0f];
     [[self.containerView layer] setMasksToBounds:YES];
     [[self.noteThumbnail layer] setCornerRadius:8.0f];
