@@ -87,28 +87,8 @@ Note *_note;
     return nil;
 }
 
--(void)viewDidAppear:(BOOL)animated{
-    [super viewDidAppear:animated];
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 120, 30)];
-	[label setFont:[UIFont boldSystemFontOfSize:16.0]];
-    label.textAlignment = NSTextAlignmentCenter;
-	[label setBackgroundColor:[UIColor clearColor]];
-	[label setTextColor:[UIColor whiteColor]];
-	[label setText:@"Note"];
-    
-    UILabel *backLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 120, 30)];
-	[backLabel setFont:[UIFont boldSystemFontOfSize:16.0]];
-    backLabel.textAlignment = NSTextAlignmentCenter;
-	[backLabel setBackgroundColor:[UIColor clearColor]];
-	[backLabel setTextColor:[UIColor whiteColor]];
-	[backLabel setText:@"Back"];
-    
-	[self.navigationController.navigationBar.topItem setTitleView:label];
-}
-
 -(void)setNote:(Note *)note{
     _note = note;
-    self.title = self.note.titleText;
 }
 
 - (void)viewDidUnload {

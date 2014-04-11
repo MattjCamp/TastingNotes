@@ -12,6 +12,9 @@
                     <tabBarItem key="tabBarItem" title="Notes" image="icon-book.png" id="y51-gz-Lns"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dvb-kF-Ygx">
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="Ygt-r0-20F" kind="relationship" relationship="rootViewController" id="3Us-76-qBh"/>
