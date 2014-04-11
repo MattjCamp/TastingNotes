@@ -81,7 +81,23 @@
 		91B3D45A16418C45003EC643 /* tastingnotesnotestyledefault.css in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44816418C45003EC643 /* tastingnotesnotestyledefault.css */; };
 		91B3D45B16418C45003EC643 /* winebottle4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44916418C45003EC643 /* winebottle4.jpeg */; };
 		C9012C82179768DE0033DC9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9012C81179768DE0033DC9C /* Images.xcassets */; };
+		C94C4B9C18F72FCD0034701B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94C4B9B18F72FCD0034701B /* XCTest.framework */; };
+		C94C4B9D18F72FCD0034701B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A368C1649B20E00A7C284 /* Foundation.framework */; };
+		C94C4B9E18F72FCD0034701B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A368A1649B20E00A7C284 /* UIKit.framework */; };
+		C94C4BA418F72FCD0034701B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C94C4BA218F72FCD0034701B /* InfoPlist.strings */; };
+		C94C4BA618F72FCD0034701B /* TastingNotes_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C94C4BA518F72FCD0034701B /* TastingNotes_Tests.m */; };
+		C94C4BAF18F735340034701B /* Section+TesterHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = C94C4BAE18F735340034701B /* Section+TesterHelp.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C94C4BA818F72FCD0034701B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91B3D2C41641834F003EC643 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91B3D2CC1641834F003EC643;
+			remoteInfo = TastingNotes;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		910271081652A59C00663B38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -213,6 +229,14 @@
 		91B3D44816418C45003EC643 /* tastingnotesnotestyledefault.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = tastingnotesnotestyledefault.css; sourceTree = "<group>"; };
 		91B3D44916418C45003EC643 /* winebottle4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = winebottle4.jpeg; sourceTree = "<group>"; };
 		C9012C81179768DE0033DC9C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C94C4B9A18F72FCD0034701B /* TastingNotes Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TastingNotes Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94C4B9B18F72FCD0034701B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C94C4BA118F72FCD0034701B /* TastingNotes Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TastingNotes Tests-Info.plist"; sourceTree = "<group>"; };
+		C94C4BA318F72FCD0034701B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C94C4BA518F72FCD0034701B /* TastingNotes_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TastingNotes_Tests.m; sourceTree = "<group>"; };
+		C94C4BA718F72FCD0034701B /* TastingNotes Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TastingNotes Tests-Prefix.pch"; sourceTree = "<group>"; };
+		C94C4BAD18F735340034701B /* Section+TesterHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Section+TesterHelp.h"; sourceTree = "<group>"; };
+		C94C4BAE18F735340034701B /* Section+TesterHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Section+TesterHelp.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +250,16 @@
 				91B3D2D21641834F003EC643 /* UIKit.framework in Frameworks */,
 				91B3D2D41641834F003EC643 /* Foundation.framework in Frameworks */,
 				91B3D2D61641834F003EC643 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94C4B9718F72FCD0034701B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94C4B9C18F72FCD0034701B /* XCTest.framework in Frameworks */,
+				C94C4B9E18F72FCD0034701B /* UIKit.framework in Frameworks */,
+				C94C4B9D18F72FCD0034701B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +280,7 @@
 				913A368A1649B20E00A7C284 /* UIKit.framework */,
 				913A368C1649B20E00A7C284 /* Foundation.framework */,
 				913A368E1649B20E00A7C284 /* CoreGraphics.framework */,
+				C94C4B9B18F72FCD0034701B /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -261,6 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				91B3D2D71641834F003EC643 /* TastingNotes */,
+				C94C4B9F18F72FCD0034701B /* TastingNotes Tests */,
 				913A36891649B20D00A7C284 /* Frameworks */,
 				91B3D2CE1641834F003EC643 /* Products */,
 			);
@@ -270,6 +306,7 @@
 			isa = PBXGroup;
 			children = (
 				91B3D2CD1641834F003EC643 /* TastingNotes.app */,
+				C94C4B9A18F72FCD0034701B /* TastingNotes Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -536,6 +573,27 @@
 			name = List;
 			sourceTree = "<group>";
 		};
+		C94C4B9F18F72FCD0034701B /* TastingNotes Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C94C4BA518F72FCD0034701B /* TastingNotes_Tests.m */,
+				C94C4BA018F72FCD0034701B /* Supporting Files */,
+				C94C4BAD18F735340034701B /* Section+TesterHelp.h */,
+				C94C4BAE18F735340034701B /* Section+TesterHelp.m */,
+			);
+			path = "TastingNotes Tests";
+			sourceTree = "<group>";
+		};
+		C94C4BA018F72FCD0034701B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C94C4BA118F72FCD0034701B /* TastingNotes Tests-Info.plist */,
+				C94C4BA218F72FCD0034701B /* InfoPlist.strings */,
+				C94C4BA718F72FCD0034701B /* TastingNotes Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -556,6 +614,24 @@
 			productReference = 91B3D2CD1641834F003EC643 /* TastingNotes.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C94C4B9918F72FCD0034701B /* TastingNotes Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C94C4BAC18F72FCD0034701B /* Build configuration list for PBXNativeTarget "TastingNotes Tests" */;
+			buildPhases = (
+				C94C4B9618F72FCD0034701B /* Sources */,
+				C94C4B9718F72FCD0034701B /* Frameworks */,
+				C94C4B9818F72FCD0034701B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C94C4BA918F72FCD0034701B /* PBXTargetDependency */,
+			);
+			name = "TastingNotes Tests";
+			productName = "TastingNotes Tests";
+			productReference = C94C4B9A18F72FCD0034701B /* TastingNotes Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -567,6 +643,9 @@
 				TargetAttributes = {
 					91B3D2CC1641834F003EC643 = {
 						DevelopmentTeam = RB2FDGYQPZ;
+					};
+					C94C4B9918F72FCD0034701B = {
+						TestTargetID = 91B3D2CC1641834F003EC643;
 					};
 				};
 			};
@@ -584,6 +663,7 @@
 			projectRoot = "";
 			targets = (
 				91B3D2CC1641834F003EC643 /* TastingNotes */,
+				C94C4B9918F72FCD0034701B /* TastingNotes Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -614,6 +694,14 @@
 				91B3D45A16418C45003EC643 /* tastingnotesnotestyledefault.css in Resources */,
 				91B3D45B16418C45003EC643 /* winebottle4.jpeg in Resources */,
 				910271051652A59C00663B38 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94C4B9818F72FCD0034701B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94C4BA418F72FCD0034701B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -674,7 +762,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C94C4B9618F72FCD0034701B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94C4BA618F72FCD0034701B /* TastingNotes_Tests.m in Sources */,
+				C94C4BAF18F735340034701B /* Section+TesterHelp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C94C4BA918F72FCD0034701B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91B3D2CC1641834F003EC643 /* TastingNotes */;
+			targetProxy = C94C4BA818F72FCD0034701B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		910271091652A59C00663B38 /* Localizable.strings */ = {
@@ -689,6 +794,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				91B3D2DB1641834F003EC643 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C94C4BA218F72FCD0034701B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C94C4BA318F72FCD0034701B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -795,6 +908,73 @@
 			};
 			name = Release;
 		};
+		C94C4BAA18F72FCD0034701B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TastingNotes.app/TastingNotes";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TastingNotes Tests/TastingNotes Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "TastingNotes Tests/TastingNotes Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C94C4BAB18F72FCD0034701B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TastingNotes.app/TastingNotes";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TastingNotes Tests/TastingNotes Tests-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "TastingNotes Tests/TastingNotes Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -815,6 +995,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		C94C4BAC18F72FCD0034701B /* Build configuration list for PBXNativeTarget "TastingNotes Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94C4BAA18F72FCD0034701B /* Debug */,
+				C94C4BAB18F72FCD0034701B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

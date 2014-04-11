@@ -44,7 +44,6 @@ static AppContent *sharedObject = nil;
 
 -(void)setUpInititalNotebook{
     if(!self.databaseIsInitialized){
-        NSLog(@"%i", self.noteBookType);
         [self.notebooks addNewNotebookWithThisType:self.noteBookType];
         self.databaseIsInitialized = YES;
     }

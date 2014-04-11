@@ -175,13 +175,19 @@ NSMutableArray *listOfContent;
             }else{
                 CGSize newSize = CGSizeMake(60, 80);
                 UIGraphicsBeginImageContext(newSize);
-                [content.image drawInRect:CGRectMake(0,0,newSize.width,newSize.height)];
-                UIImage* newImage = UIGraphicsGetImageFromCurrentImageContext();
-                UIGraphicsEndImageContext();
-                _thumbnail = newImage;
-                NSData *tempData = UIImagePNGRepresentation(newImage);
-                [tempData writeToFile:[self thumbnailCacheFilename] atomically:NO];
-                return _thumbnail;
+                //Remove
+                //UIImage *i = content.image;
+                if(content.image){
+                    [content.image drawInRect:CGRectMake(0,0,newSize.width,newSize.height)];
+                    UIImage* newImage = UIGraphicsGetImageFromCurrentImageContext();
+                    UIGraphicsEndImageContext();
+                    _thumbnail = newImage;
+                    NSData *tempData = UIImagePNGRepresentation(newImage);
+                    [tempData writeToFile:[self thumbnailCacheFilename] atomically:NO];
+                    return _thumbnail;
+                }
+                else
+                    return nil;
             }
 		}
 		else
@@ -266,7 +272,7 @@ NSMutableArray *listOfContent;
 
 -(NSString *)socialString{
     NSString *temp = [NSString stringWithFormat:@"Just tasted %@ %@ #tastingnotesapp", self.titleText, self.detailText];
-
+    
     return temp;
 }
 
@@ -287,10 +293,10 @@ NSMutableArray *listOfContent;
     }
     return _htmlViewString;
 }
-    
-    -(void)setHtmlViewString:(NSString *)aString {
-        if (_htmlViewString != aString)
-            _htmlViewString = aString;
-    }
-    
-    @end
+
+-(void)setHtmlViewString:(NSString *)aString {
+    if (_htmlViewString != aString)
+        _htmlViewString = aString;
+}
+
+@end
