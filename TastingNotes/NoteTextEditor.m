@@ -39,8 +39,7 @@
     if(self.isFreshContent)
         textView.text = nil;
     self.isFreshContent = NO;
-    
-    UITableView *tv = (UITableView *)self.superview;    
+    UITableView *tv = (UITableView *)self.superview.superview;
     NSIndexPath *indexPath = [tv indexPathForCell:self];
     [tv scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionTop animated:YES];
 }
