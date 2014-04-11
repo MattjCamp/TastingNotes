@@ -175,8 +175,6 @@ NSMutableArray *listOfContent;
             }else{
                 CGSize newSize = CGSizeMake(60, 80);
                 UIGraphicsBeginImageContext(newSize);
-                //Remove
-                //UIImage *i = content.image;
                 if(content.image){
                     [content.image drawInRect:CGRectMake(0,0,newSize.width,newSize.height)];
                     UIImage* newImage = UIGraphicsGetImageFromCurrentImageContext();
