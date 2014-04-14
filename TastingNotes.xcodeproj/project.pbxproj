@@ -235,8 +235,8 @@
 		C94C4BA318F72FCD0034701B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C94C4BA518F72FCD0034701B /* TastingNotes_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TastingNotes_Tests.m; sourceTree = "<group>"; };
 		C94C4BA718F72FCD0034701B /* TastingNotes Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TastingNotes Tests-Prefix.pch"; sourceTree = "<group>"; };
-		C94C4BAD18F735340034701B /* Section+TesterHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Section+TesterHelp.h"; sourceTree = "<group>"; };
-		C94C4BAE18F735340034701B /* Section+TesterHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Section+TesterHelp.m"; sourceTree = "<group>"; };
+		C94C4BAD18F735340034701B /* Section+TesterHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Section+TesterHelp.h"; path = "TastingNotes Tests/Section+TesterHelp.h"; sourceTree = SOURCE_ROOT; };
+		C94C4BAE18F735340034701B /* Section+TesterHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Section+TesterHelp.m"; path = "TastingNotes Tests/Section+TesterHelp.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -330,6 +330,7 @@
 		91B3D2D71641834F003EC643 /* TastingNotes */ = {
 			isa = PBXGroup;
 			children = (
+				C9E3924418FC4B74002EA56F /* Inspectors */,
 				9102710A1652AEE000663B38 /* External Assets */,
 				91B3D42E164189A6003EC643 /* TNAppDelegate.h */,
 				91B3D42F164189A6003EC643 /* TNAppDelegate.m */,
@@ -578,8 +579,6 @@
 			children = (
 				C94C4BA518F72FCD0034701B /* TastingNotes_Tests.m */,
 				C94C4BA018F72FCD0034701B /* Supporting Files */,
-				C94C4BAD18F735340034701B /* Section+TesterHelp.h */,
-				C94C4BAE18F735340034701B /* Section+TesterHelp.m */,
 			);
 			path = "TastingNotes Tests";
 			sourceTree = "<group>";
@@ -592,6 +591,15 @@
 				C94C4BA718F72FCD0034701B /* TastingNotes Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9E3924418FC4B74002EA56F /* Inspectors */ = {
+			isa = PBXGroup;
+			children = (
+				C94C4BAD18F735340034701B /* Section+TesterHelp.h */,
+				C94C4BAE18F735340034701B /* Section+TesterHelp.m */,
+			);
+			name = Inspectors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1003,6 +1011,7 @@
 				C94C4BAB18F72FCD0034701B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
