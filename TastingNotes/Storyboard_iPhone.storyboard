@@ -1350,7 +1350,7 @@
                                 </items>
                             </toolbar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="rvb-9J-RKh">
-                                <rect key="frame" x="10" y="7" width="300" height="420"/>
+                                <rect key="frame" x="10" y="20" width="300" height="407"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" hidesWhenStopped="YES" style="whiteLarge" id="lLO-iY-8br">
@@ -1995,7 +1995,7 @@
                                 </items>
                             </toolbar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="guU-Ft-TIV">
-                                <rect key="frame" x="10" y="7" width="300" height="420"/>
+                                <rect key="frame" x="10" y="20" width="300" height="407"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" hidesWhenStopped="YES" style="whiteLarge" id="Hpq-Zc-AXp">
