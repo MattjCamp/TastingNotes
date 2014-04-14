@@ -23,7 +23,7 @@ Notebook *tempNotebook = nil;
 	[label setFont:[UIFont boldSystemFontOfSize:16.0]];
     label.textAlignment = NSTextAlignmentCenter;
 	[label setBackgroundColor:[UIColor clearColor]];
-	[label setTextColor:[UIColor whiteColor]];
+	[label setTextColor:[UIColor redColor]];
 	[label setText:@"Select Notebook"];
 	[self.navigationController.navigationBar.topItem setTitleView:label];
 }

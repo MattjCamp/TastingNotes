@@ -16,13 +16,9 @@
 	[label setFont:[UIFont boldSystemFontOfSize:16.0]];
     label.textAlignment = NSTextAlignmentCenter;
 	[label setBackgroundColor:[UIColor clearColor]];
-	[label setTextColor:[UIColor whiteColor]];
+	[label setTextColor:[UIColor redColor]];
 	[label setText:self.notebook.name];
 	[self.navigationController.navigationBar.topItem setTitleView:label];
-}
-
--(void)viewDidLoad{
-    [super viewDidLoad];
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
