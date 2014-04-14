@@ -60,11 +60,13 @@
             cell = (NoteSummaryTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"notesummarycell"];
         else
             cell = (NoteSummaryTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"notesummarycellnoimage"];
+        [cell setNeedsDisplay];
         cell.note = note;
         return cell;
     }
     else{
         NoteSummaryTableViewCell *cell = (NoteSummaryTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"notesummarycellnoimage"];
+        [cell setNeedsDisplay];
         cell.note = note;
         return cell;
     }
