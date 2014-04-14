@@ -81,12 +81,15 @@
 		91B3D45A16418C45003EC643 /* tastingnotesnotestyledefault.css in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44816418C45003EC643 /* tastingnotesnotestyledefault.css */; };
 		91B3D45B16418C45003EC643 /* winebottle4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44916418C45003EC643 /* winebottle4.jpeg */; };
 		C9012C82179768DE0033DC9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9012C81179768DE0033DC9C /* Images.xcassets */; };
+		C91F4AC018FC509E0045C29B /* Notebook+Inspector.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E3924618FC4C0D002EA56F /* Notebook+Inspector.m */; };
 		C94C4B9C18F72FCD0034701B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94C4B9B18F72FCD0034701B /* XCTest.framework */; };
 		C94C4B9D18F72FCD0034701B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A368C1649B20E00A7C284 /* Foundation.framework */; };
 		C94C4B9E18F72FCD0034701B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A368A1649B20E00A7C284 /* UIKit.framework */; };
 		C94C4BA418F72FCD0034701B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C94C4BA218F72FCD0034701B /* InfoPlist.strings */; };
 		C94C4BA618F72FCD0034701B /* TastingNotes_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C94C4BA518F72FCD0034701B /* TastingNotes_Tests.m */; };
-		C94C4BAF18F735340034701B /* Section+TesterHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = C94C4BAE18F735340034701B /* Section+TesterHelp.m */; };
+		C9E3924918FC4C5A002EA56F /* SQLite_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E3924818FC4C5A002EA56F /* SQLite_Tests.m */; };
+		C9E3924A18FC4EFD002EA56F /* Section+TesterHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = C94C4BAE18F735340034701B /* Section+TesterHelp.m */; };
+		C9E3924B18FC4F05002EA56F /* Notebook+Inspector.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E3924618FC4C0D002EA56F /* Notebook+Inspector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -237,6 +240,9 @@
 		C94C4BA718F72FCD0034701B /* TastingNotes Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TastingNotes Tests-Prefix.pch"; sourceTree = "<group>"; };
 		C94C4BAD18F735340034701B /* Section+TesterHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Section+TesterHelp.h"; path = "TastingNotes Tests/Section+TesterHelp.h"; sourceTree = SOURCE_ROOT; };
 		C94C4BAE18F735340034701B /* Section+TesterHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Section+TesterHelp.m"; path = "TastingNotes Tests/Section+TesterHelp.m"; sourceTree = SOURCE_ROOT; };
+		C9E3924518FC4C0D002EA56F /* Notebook+Inspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Notebook+Inspector.h"; sourceTree = "<group>"; };
+		C9E3924618FC4C0D002EA56F /* Notebook+Inspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Notebook+Inspector.m"; sourceTree = "<group>"; };
+		C9E3924818FC4C5A002EA56F /* SQLite_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLite_Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -579,6 +585,7 @@
 			children = (
 				C94C4BA518F72FCD0034701B /* TastingNotes_Tests.m */,
 				C94C4BA018F72FCD0034701B /* Supporting Files */,
+				C9E3924818FC4C5A002EA56F /* SQLite_Tests.m */,
 			);
 			path = "TastingNotes Tests";
 			sourceTree = "<group>";
@@ -598,6 +605,8 @@
 			children = (
 				C94C4BAD18F735340034701B /* Section+TesterHelp.h */,
 				C94C4BAE18F735340034701B /* Section+TesterHelp.m */,
+				C9E3924518FC4C0D002EA56F /* Notebook+Inspector.h */,
+				C9E3924618FC4C0D002EA56F /* Notebook+Inspector.m */,
 			);
 			name = Inspectors;
 			sourceTree = "<group>";
@@ -728,6 +737,7 @@
 				91B3D3B616418762003EC643 /* Notebooks.m in Sources */,
 				91B3D3B716418762003EC643 /* Notebook.m in Sources */,
 				91B3D3B816418762003EC643 /* Section.m in Sources */,
+				C9E3924A18FC4EFD002EA56F /* Section+TesterHelp.m in Sources */,
 				91B3D3B916418762003EC643 /* Control.m in Sources */,
 				91B3D3BA16418762003EC643 /* Note.m in Sources */,
 				91B3D3BB16418762003EC643 /* Content.m in Sources */,
@@ -744,6 +754,7 @@
 				91B3D3EE164188A4003EC643 /* SectionsVC.m in Sources */,
 				91B3D3EF164188A4003EC643 /* SectionNameEditor.m in Sources */,
 				91B3D3F0164188A4003EC643 /* PlacardTopLevelEditor.m in Sources */,
+				C9E3924B18FC4F05002EA56F /* Notebook+Inspector.m in Sources */,
 				91B3D3F1164188A4003EC643 /* PlacardContentChooser.m in Sources */,
 				91B3D3F2164188A4003EC643 /* PlacardNoteSummaryView.m in Sources */,
 				91B3D3FA164188C5003EC643 /* NotebookView.m in Sources */,
@@ -775,7 +786,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C94C4BA618F72FCD0034701B /* TastingNotes_Tests.m in Sources */,
-				C94C4BAF18F735340034701B /* Section+TesterHelp.m in Sources */,
+				C91F4AC018FC509E0045C29B /* Notebook+Inspector.m in Sources */,
+				C9E3924918FC4C5A002EA56F /* SQLite_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
