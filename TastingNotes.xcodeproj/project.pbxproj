@@ -233,7 +233,7 @@
 		91B3D44816418C45003EC643 /* tastingnotesnotestyledefault.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = tastingnotesnotestyledefault.css; sourceTree = "<group>"; };
 		91B3D44916418C45003EC643 /* winebottle4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = winebottle4.jpeg; sourceTree = "<group>"; };
 		C9012C81179768DE0033DC9C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C91F4AC118FC8E820045C29B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C91F4AC118FC8E820045C29B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		C94C4B9A18F72FCD0034701B /* TastingNotes Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TastingNotes Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94C4B9B18F72FCD0034701B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C94C4BA118F72FCD0034701B /* TastingNotes Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TastingNotes Tests-Info.plist"; sourceTree = "<group>"; };
@@ -303,7 +303,6 @@
 		91B3D2C21641834F003EC643 = {
 			isa = PBXGroup;
 			children = (
-				C91F4AC118FC8E820045C29B /* Default@2x.png */,
 				91B3D2D71641834F003EC643 /* TastingNotes */,
 				C94C4B9F18F72FCD0034701B /* TastingNotes Tests */,
 				913A36891649B20D00A7C284 /* Frameworks */,
@@ -355,6 +354,7 @@
 		91B3D2D81641834F003EC643 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C91F4AC118FC8E820045C29B /* Default@2x.png */,
 				91B3D43816418C45003EC643 /* 001_15.png */,
 				91B3D43916418C45003EC643 /* 001_17.png */,
 				91B3D43A16418C45003EC643 /* 57_wine_journal.png */,
