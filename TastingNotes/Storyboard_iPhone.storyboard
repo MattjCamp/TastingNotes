@@ -1398,7 +1398,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Y4a-2n-o86">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="436"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="416"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -1426,15 +1426,9 @@
                                                         <outlet property="delegate" destination="wgK-0y-R5e" id="AaT-5x-eei"/>
                                                     </connections>
                                                 </textField>
-                                                <view contentMode="scaleToFill" id="KbZ-nQ-5PP">
-                                                    <rect key="frame" x="292" y="9" width="25" height="25"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                                                </view>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="checkboxView" destination="KbZ-nQ-5PP" id="DTC-XK-YPE"/>
                                             <outlet property="noteTextField" destination="Ps3-Md-eCv" id="cuJ-zN-NGT"/>
                                         </connections>
                                     </tableViewCell>

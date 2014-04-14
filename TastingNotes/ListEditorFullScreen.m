@@ -47,7 +47,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [self.listControl.listItems count] + 1;
+    return [self.listControl.listItems count];
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -65,8 +65,8 @@
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-if(indexPath.row >= self.listControl.listItems.count)
-    return 180;
+    if(indexPath.row >= self.listControl.listItems.count)
+        return 180;
     else
         return 45;
 }

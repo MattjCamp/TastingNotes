@@ -28,7 +28,7 @@
 }
 
 - (void)textFieldDidBeginEditing:(UITextField *)textField{
-    UITableView *tv = (UITableView *)self.superview;
+    UITableView *tv = (UITableView *)self.superview.superview;
     NSIndexPath *indexPath = [tv indexPathForCell:self];
     [tv scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionTop animated:YES];
     
