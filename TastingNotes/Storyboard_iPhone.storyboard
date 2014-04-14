@@ -284,15 +284,9 @@
                                                         <outlet property="delegate" destination="Xio-IL-w1d" id="emC-oS-44e"/>
                                                     </connections>
                                                 </textField>
-                                                <view contentMode="scaleToFill" id="cdo-uM-F1d">
-                                                    <rect key="frame" x="275" y="9" width="25" height="25"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                                                </view>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="checkboxView" destination="cdo-uM-F1d" id="V3H-T4-POR"/>
                                             <outlet property="noteTextField" destination="jBR-BF-VGT" id="WeY-5n-86h"/>
                                         </connections>
                                     </tableViewCell>
