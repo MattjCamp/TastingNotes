@@ -156,8 +156,8 @@ Notebook *_activeNotebook;
 
 -(void)setActiveNotebook:(Notebook *)activeNotebook{
     _activeNotebook = activeNotebook;
-    int i = [self.notebooks.listOfNotebooks indexOfObject:activeNotebook];
-    [self.userSettings setObject:[NSNumber numberWithInt:i] forKey:@"ActiveNotebook"];
+    long i = [self.notebooks.listOfNotebooks indexOfObject:activeNotebook];
+    [self.userSettings setObject:[NSNumber numberWithLong:i] forKey:@"ActiveNotebook"];
     [self.userSettings writeToFile:userSettingsFilename atomically:YES];
 }
 

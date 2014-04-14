@@ -164,7 +164,7 @@
 				self.control.type = @"List";
 				ListControl *lc = [[ListControl alloc] initWithPrimaryKey:self.control.pk
 															inThisSection:self.control.section];
-				int i = [self.control.section.listOfControls indexOfObjectIdenticalTo:self.control];
+				NSInteger i = [self.control.section.listOfControls indexOfObjectIdenticalTo:self.control];
 				[lc.section.listOfControls replaceObjectAtIndex:i
 													 withObject:lc];
 				

@@ -215,7 +215,7 @@ NSString *writableDatabaseFullFileName;
 	else
 		pk = (int)sqlite3_last_insert_rowid(sqlite);
 	sqlite3_finalize(statement);
-	NSNumber *pk_return = [[NSNumber alloc] initWithInt:pk];
+	NSNumber *pk_return = [[NSNumber alloc] initWithLong:pk];
 	
 	return pk_return;
 }
@@ -272,7 +272,7 @@ NSString *writableDatabaseFullFileName;
 	if(sqlite3_prepare_v2(sqlite, sql, -1, &statement, NULL) != SQLITE_OK)
 		NSAssert1(0, @"Error while creating update statement. '%s'", sqlite3_errmsg(sqlite));
 	
-	if (sqlite3_bind_blob(statement, 1, [data bytes], [data length], NULL) != SQLITE_OK)
+	if (sqlite3_bind_blob(statement, 1, [data bytes], (int)[data length], NULL) != SQLITE_OK)
 		NSAssert1(0, @"Error: sqlite statement did not get prepared: '%s'.",
 				  sqlite3_errmsg(sqlite));
 	int success = sqlite3_step(statement);

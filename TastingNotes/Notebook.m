@@ -390,8 +390,8 @@
         return listOfNotes;
 }
 
--(void)moveControlAtThisIndex:(int)fromControlIndex atThisSectionIndex:(int)fromSectionIndex
-           toThisSectionIndex:(int)toSectionIndex andThisControlIndex:(int) toControlIndex;{
+-(void)moveControlAtThisIndex:(NSInteger)fromControlIndex atThisSectionIndex:(NSInteger)fromSectionIndex
+           toThisSectionIndex:(NSInteger)toSectionIndex andThisControlIndex:(NSInteger) toControlIndex;{
     
     Section *fromS = [self.listOfSections objectAtIndex:fromSectionIndex];
     Section *toS = [self.listOfSections objectAtIndex:toSectionIndex];
@@ -427,15 +427,15 @@
     }
 }
 
--(void)moveSectionAtThisIndex:(int)fromIndex toThisIndex:(int)toIndex{
+-(void)moveSectionAtThisIndex:(NSInteger)fromIndex toThisIndex:(NSInteger)toIndex{
     Section *fromSection = [self.listOfSections objectAtIndex:fromIndex];
     Section *toSection = [self.listOfSections objectAtIndex:toIndex];
     
     NSNumber *fromOrder;
     NSNumber *toOrder;
     
-    fromOrder = [[NSNumber alloc] initWithInt:fromIndex];
-    toOrder = [[NSNumber alloc] initWithInt:toIndex];
+    fromOrder = [[NSNumber alloc] initWithLong:fromIndex];
+    toOrder = [[NSNumber alloc] initWithLong:toIndex];
     
     fromSection.order = toOrder;
     toSection.order = fromOrder;
@@ -591,7 +591,7 @@
 	return noteString;
 }
 
--(void)moveNoteAtThisIndex:(int)fromIndex toThisIndex:(int)toIndex{
+-(void)moveNoteAtThisIndex:(NSInteger)fromIndex toThisIndex:(NSInteger)toIndex{
     [self.listOfNotes exchangeObjectAtIndex:fromIndex
                           withObjectAtIndex:toIndex];
     int i = 0;

@@ -46,9 +46,9 @@
 -(id)initWithPrimaryKey:(NSNumber *) primaryKey;
 
 -(void)createImageDirectory;
--(void)moveControlAtThisIndex:(int)fromControlIndex atThisSectionIndex:(int)fromSectionIndex
-           toThisSectionIndex:(int)toSectionIndex andThisControlIndex:(int) toControlIndex;
--(void)moveSectionAtThisIndex:(int)fromIndex toThisIndex:(int)toIndex;
+-(void)moveControlAtThisIndex:(NSInteger)fromControlIndex atThisSectionIndex:(NSInteger)fromSectionIndex
+           toThisSectionIndex:(NSInteger)toSectionIndex andThisControlIndex:(NSInteger) toControlIndex;
+-(void)moveSectionAtThisIndex:(NSInteger)fromIndex toThisIndex:(NSInteger)toIndex;
 -(void)addSectionToThisNotebook;
 -(void)addControlToThisNotebook;
 -(void)addNoteToThisNotebook;
@@ -62,6 +62,6 @@
 -(Control *)placardDetail3Control;
 -(void)setAllNotesPlacardInfoToNil;
 -(NSString *)toString;
--(void)moveNoteAtThisIndex:(int)fromIndex toThisIndex:(int)toIndex;
+-(void)moveNoteAtThisIndex:(NSInteger)fromIndex toThisIndex:(NSInteger)toIndex;
 
 @end
