@@ -68,7 +68,6 @@
 		91B3D44C16418C45003EC643 /* 57_wine_journal.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43A16418C45003EC643 /* 57_wine_journal.png */; };
 		91B3D44D16418C45003EC643 /* 114_wine_journal.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43B16418C45003EC643 /* 114_wine_journal.png */; };
 		91B3D44E16418C45003EC643 /* aweberform_iphone.html in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43C16418C45003EC643 /* aweberform_iphone.html */; };
-		91B3D45016418C45003EC643 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43E16418C45003EC643 /* Default@2x.png */; };
 		91B3D45116418C45003EC643 /* dropbox_icon_35.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D43F16418C45003EC643 /* dropbox_icon_35.png */; };
 		91B3D45216418C45003EC643 /* icon-book.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44016418C45003EC643 /* icon-book.png */; };
 		91B3D45316418C45003EC643 /* icon-book@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B3D44116418C45003EC643 /* icon-book@2x.png */; };
@@ -220,7 +219,6 @@
 		91B3D43A16418C45003EC643 /* 57_wine_journal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57_wine_journal.png; sourceTree = "<group>"; };
 		91B3D43B16418C45003EC643 /* 114_wine_journal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114_wine_journal.png; sourceTree = "<group>"; };
 		91B3D43C16418C45003EC643 /* aweberform_iphone.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = aweberform_iphone.html; sourceTree = "<group>"; };
-		91B3D43E16418C45003EC643 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		91B3D43F16418C45003EC643 /* dropbox_icon_35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropbox_icon_35.png; sourceTree = "<group>"; };
 		91B3D44016418C45003EC643 /* icon-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-book.png"; sourceTree = "<group>"; };
 		91B3D44116418C45003EC643 /* icon-book@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-book@2x.png"; sourceTree = "<group>"; };
@@ -360,7 +358,6 @@
 				91B3D43A16418C45003EC643 /* 57_wine_journal.png */,
 				91B3D43B16418C45003EC643 /* 114_wine_journal.png */,
 				91B3D43C16418C45003EC643 /* aweberform_iphone.html */,
-				91B3D43E16418C45003EC643 /* Default@2x.png */,
 				91B3D43F16418C45003EC643 /* dropbox_icon_35.png */,
 				91B3D44016418C45003EC643 /* icon-book.png */,
 				91B3D44116418C45003EC643 /* icon-book@2x.png */,
@@ -700,7 +697,6 @@
 				91B3D44C16418C45003EC643 /* 57_wine_journal.png in Resources */,
 				91B3D44D16418C45003EC643 /* 114_wine_journal.png in Resources */,
 				91B3D44E16418C45003EC643 /* aweberform_iphone.html in Resources */,
-				91B3D45016418C45003EC643 /* Default@2x.png in Resources */,
 				91B3D45116418C45003EC643 /* dropbox_icon_35.png in Resources */,
 				C9012C82179768DE0033DC9C /* Images.xcassets in Resources */,
 				91B3D45216418C45003EC643 /* icon-book.png in Resources */,
