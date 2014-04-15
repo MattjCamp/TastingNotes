@@ -82,6 +82,11 @@
 		C94C4B9E18F72FCD0034701B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A368A1649B20E00A7C284 /* UIKit.framework */; };
 		C94C4BA418F72FCD0034701B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C94C4BA218F72FCD0034701B /* InfoPlist.strings */; };
 		C94C4BA618F72FCD0034701B /* TastingNotes_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C94C4BA518F72FCD0034701B /* TastingNotes_Tests.m */; };
+		C9A2ABCB18FD64020024C6C1 /* Screenshot 2014.04.14 17.45.24.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A2ABC618FD64020024C6C1 /* Screenshot 2014.04.14 17.45.24.png */; };
+		C9A2ABCC18FD64020024C6C1 /* Screenshot 2014.04.14 17.45.58.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A2ABC718FD64020024C6C1 /* Screenshot 2014.04.14 17.45.58.png */; };
+		C9A2ABCD18FD64020024C6C1 /* Screenshot 2014.04.14 17.46.10.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A2ABC818FD64020024C6C1 /* Screenshot 2014.04.14 17.46.10.png */; };
+		C9A2ABCE18FD64020024C6C1 /* Screenshot 2014.04.14 17.46.22.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A2ABC918FD64020024C6C1 /* Screenshot 2014.04.14 17.46.22.png */; };
+		C9A2ABCF18FD64020024C6C1 /* Screenshot 2014.04.14 17.46.34.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A2ABCA18FD64020024C6C1 /* Screenshot 2014.04.14 17.46.34.png */; };
 		C9E3924918FC4C5A002EA56F /* SQLite_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E3924818FC4C5A002EA56F /* SQLite_Tests.m */; };
 		C9E3924A18FC4EFD002EA56F /* Section+TesterHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = C94C4BAE18F735340034701B /* Section+TesterHelp.m */; };
 		C9E3924B18FC4F05002EA56F /* Notebook+Inspector.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E3924618FC4C0D002EA56F /* Notebook+Inspector.m */; };
@@ -230,6 +235,11 @@
 		C94C4BA718F72FCD0034701B /* TastingNotes Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TastingNotes Tests-Prefix.pch"; sourceTree = "<group>"; };
 		C94C4BAD18F735340034701B /* Section+TesterHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Section+TesterHelp.h"; path = "TastingNotes Tests/Section+TesterHelp.h"; sourceTree = SOURCE_ROOT; };
 		C94C4BAE18F735340034701B /* Section+TesterHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Section+TesterHelp.m"; path = "TastingNotes Tests/Section+TesterHelp.m"; sourceTree = SOURCE_ROOT; };
+		C9A2ABC618FD64020024C6C1 /* Screenshot 2014.04.14 17.45.24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2014.04.14 17.45.24.png"; sourceTree = "<group>"; };
+		C9A2ABC718FD64020024C6C1 /* Screenshot 2014.04.14 17.45.58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2014.04.14 17.45.58.png"; sourceTree = "<group>"; };
+		C9A2ABC818FD64020024C6C1 /* Screenshot 2014.04.14 17.46.10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2014.04.14 17.46.10.png"; sourceTree = "<group>"; };
+		C9A2ABC918FD64020024C6C1 /* Screenshot 2014.04.14 17.46.22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2014.04.14 17.46.22.png"; sourceTree = "<group>"; };
+		C9A2ABCA18FD64020024C6C1 /* Screenshot 2014.04.14 17.46.34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2014.04.14 17.46.34.png"; sourceTree = "<group>"; };
 		C9E3924518FC4C0D002EA56F /* Notebook+Inspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Notebook+Inspector.h"; sourceTree = "<group>"; };
 		C9E3924618FC4C0D002EA56F /* Notebook+Inspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Notebook+Inspector.m"; sourceTree = "<group>"; };
 		C9E3924818FC4C5A002EA56F /* SQLite_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLite_Tests.m; sourceTree = "<group>"; };
@@ -265,6 +275,11 @@
 		9102710A1652AEE000663B38 /* External Assets */ = {
 			isa = PBXGroup;
 			children = (
+				C9A2ABC618FD64020024C6C1 /* Screenshot 2014.04.14 17.45.24.png */,
+				C9A2ABC718FD64020024C6C1 /* Screenshot 2014.04.14 17.45.58.png */,
+				C9A2ABC818FD64020024C6C1 /* Screenshot 2014.04.14 17.46.10.png */,
+				C9A2ABC918FD64020024C6C1 /* Screenshot 2014.04.14 17.46.22.png */,
+				C9A2ABCA18FD64020024C6C1 /* Screenshot 2014.04.14 17.46.34.png */,
 				9102710B1652BEFE00663B38 /* Description */,
 			);
 			name = "External Assets";
@@ -678,15 +693,20 @@
 				91B3D2DC1641834F003EC643 /* InfoPlist.strings in Resources */,
 				91B3D3BF16418844003EC643 /* Storyboard_iPhone.storyboard in Resources */,
 				91B3D44A16418C45003EC643 /* 001_15.png in Resources */,
+				C9A2ABCF18FD64020024C6C1 /* Screenshot 2014.04.14 17.46.34.png in Resources */,
 				91B3D44B16418C45003EC643 /* 001_17.png in Resources */,
+				C9A2ABCD18FD64020024C6C1 /* Screenshot 2014.04.14 17.46.10.png in Resources */,
 				91B3D44C16418C45003EC643 /* 57_wine_journal.png in Resources */,
 				91B3D44D16418C45003EC643 /* 114_wine_journal.png in Resources */,
 				C9012C82179768DE0033DC9C /* Images.xcassets in Resources */,
+				C9A2ABCB18FD64020024C6C1 /* Screenshot 2014.04.14 17.45.24.png in Resources */,
+				C9A2ABCE18FD64020024C6C1 /* Screenshot 2014.04.14 17.46.22.png in Resources */,
 				91B3D45216418C45003EC643 /* icon-book.png in Resources */,
 				91B3D45316418C45003EC643 /* icon-book@2x.png in Resources */,
 				91B3D45416418C45003EC643 /* icon-erase.png in Resources */,
 				91B3D45516418C45003EC643 /* icon-erase@2x.png in Resources */,
 				91B3D45616418C45003EC643 /* icon-settings2.png in Resources */,
+				C9A2ABCC18FD64020024C6C1 /* Screenshot 2014.04.14 17.45.58.png in Resources */,
 				91B3D45716418C45003EC643 /* icon-settings2@2x.png in Resources */,
 				91B3D45916418C45003EC643 /* paddb.sql in Resources */,
 				91B3D45B16418C45003EC643 /* winebottle4.jpeg in Resources */,
