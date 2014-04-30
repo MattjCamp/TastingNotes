@@ -484,7 +484,7 @@
 	control.order = controlOrder;
 	control.canEdit = YES;
 	control.title = @"<Add Control Title>";
-    control.type = @"SmallText";
+    //control.type = @"SmallText";
 	[section.listOfControls addObject:control];
 	[self.listOfControls addObject:control];
 }

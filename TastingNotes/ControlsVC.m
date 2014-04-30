@@ -114,6 +114,10 @@ UIBarButtonItem *backButton;
 						  animated:YES];
 		
 	}
+    
+    Control *c = [[self.notebook listOfControls] lastObject];
+    if(!c.type)
+        c.type = @"SmallText";
 }
 
 -(IBAction)showHelp{
