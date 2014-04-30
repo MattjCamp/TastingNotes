@@ -87,6 +87,7 @@
 		C9A2ABCD18FD64020024C6C1 /* Screenshot 2014.04.14 17.46.10.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A2ABC818FD64020024C6C1 /* Screenshot 2014.04.14 17.46.10.png */; };
 		C9A2ABCE18FD64020024C6C1 /* Screenshot 2014.04.14 17.46.22.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A2ABC918FD64020024C6C1 /* Screenshot 2014.04.14 17.46.22.png */; };
 		C9A2ABCF18FD64020024C6C1 /* Screenshot 2014.04.14 17.46.34.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A2ABCA18FD64020024C6C1 /* Screenshot 2014.04.14 17.46.34.png */; };
+		C9D43E1319112EFD00E2A556 /* DefaultControlType.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D43E1219112EFD00E2A556 /* DefaultControlType.m */; };
 		C9E3924918FC4C5A002EA56F /* SQLite_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E3924818FC4C5A002EA56F /* SQLite_Tests.m */; };
 		C9E3924A18FC4EFD002EA56F /* Section+TesterHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = C94C4BAE18F735340034701B /* Section+TesterHelp.m */; };
 		C9E3924B18FC4F05002EA56F /* Notebook+Inspector.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E3924618FC4C0D002EA56F /* Notebook+Inspector.m */; };
@@ -240,6 +241,7 @@
 		C9A2ABC818FD64020024C6C1 /* Screenshot 2014.04.14 17.46.10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2014.04.14 17.46.10.png"; sourceTree = "<group>"; };
 		C9A2ABC918FD64020024C6C1 /* Screenshot 2014.04.14 17.46.22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2014.04.14 17.46.22.png"; sourceTree = "<group>"; };
 		C9A2ABCA18FD64020024C6C1 /* Screenshot 2014.04.14 17.46.34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2014.04.14 17.46.34.png"; sourceTree = "<group>"; };
+		C9D43E1219112EFD00E2A556 /* DefaultControlType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultControlType.m; sourceTree = "<group>"; };
 		C9E3924518FC4C0D002EA56F /* Notebook+Inspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Notebook+Inspector.h"; sourceTree = "<group>"; };
 		C9E3924618FC4C0D002EA56F /* Notebook+Inspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Notebook+Inspector.m"; sourceTree = "<group>"; };
 		C9E3924818FC4C5A002EA56F /* SQLite_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLite_Tests.m; sourceTree = "<group>"; };
@@ -583,6 +585,7 @@
 		C94C4B9F18F72FCD0034701B /* TastingNotes Tests */ = {
 			isa = PBXGroup;
 			children = (
+				C9D43E1219112EFD00E2A556 /* DefaultControlType.m */,
 				C94C4BA518F72FCD0034701B /* TastingNotes_Tests.m */,
 				C94C4BA018F72FCD0034701B /* Supporting Files */,
 				C9E3924818FC4C5A002EA56F /* SQLite_Tests.m */,
@@ -788,6 +791,7 @@
 				C94C4BA618F72FCD0034701B /* TastingNotes_Tests.m in Sources */,
 				C91F4AC018FC509E0045C29B /* Notebook+Inspector.m in Sources */,
 				C9E3924918FC4C5A002EA56F /* SQLite_Tests.m in Sources */,
+				C9D43E1319112EFD00E2A556 /* DefaultControlType.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -483,7 +483,8 @@
 		controlOrder = [NSNumber numberWithInt:0];
 	control.order = controlOrder;
 	control.canEdit = YES;
-	control.title = @"Control";
+	control.title = @"<Add Control Title>";
+    control.type = @"SmallText";
 	[section.listOfControls addObject:control];
 	[self.listOfControls addObject:control];
 }
